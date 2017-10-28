@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "npm-run-all -p watch:build watch:server",
+    "watch:build": "webpack -w",
+    "watch:server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,21 @@
   "bugs": {
     "url": "https://github.com/rrodwell/GTTPP/issues"
   },
-  "homepage": "https://github.com/rrodwell/GTTPP#readme"
+  "homepage": "https://github.com/rrodwell/GTTPP#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "npm-run-all": "^4.1.1",
+    "webpack": "^3.8.1"
+  }
 }
