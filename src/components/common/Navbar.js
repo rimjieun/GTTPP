@@ -3,26 +3,24 @@ import { Link } from 'react-router-dom';
 
 const Navbar = props => (
   <div>
-    <nav className="navbar navbar-default">
-      <div className="container-fluid">
-        <div className="navbar-header">
-          <a className="navbar-brand" href="#">
-            <img className="nav-img" alt="Brand" src="./assets/images/logos/GT-Primary-light-background.png" />
-          </a>
+    <nav className="main-nav">
+      <div className="nav-container flex-row content-spread">
+        <div className="brand-logo">
+          <Link to="/">
+            <img className="brand-logo" alt="Brand" src="./assets/images/logos/GT-Primary-light-background.png" />
+          </Link>
         </div>
-        <div className="collapse navbar-collapse">
-          <ul className="nav nav-tabs nav-justified">
-            <li><Link to='/' className='nav-btn'>Home</Link></li>
-            <li><Link to='/alumni' className='nav-btn'>Alumni/Get Involved</Link></li>
-            <li><Link to='/career' className='nav-btn'>Career Development</Link></li>
-            <li><Link to='/community' className='nav-btn'>Community Outreach</Link></li>
-            <li><Link to='/leadership' className='nav-btn'>Leadership Development</Link></li>
-            <li><Link to='/personal' className='nav-btn'>Personal Development</Link></li>
-            <li><Link to='/nutrition' className='nav-btn'>Sports Nutrition</Link></li>
-            <li><Link to='/stories' className='nav-btn'>Our Stories</Link></li>
-            <li><Link to='/events' className='nav-btn'>Upcoming Events</Link></li>
-          </ul>
-        </div>
+        <ul className="nav-opt flex-row content-spread">
+          <li className="nav-opt"><Link to='/'>HOME</Link></li>
+          <li className="nav-opt"><Link to='/alumni'>ALUMNI/<br />GET INVOLVED</Link></li>
+          <li className="nav-opt"><Link to='/career'>CAREER<br />DEVELOPMENT</Link></li>
+          <li className="nav-opt"><Link to='/community'>COMMUNITY<br />OUTREACH</Link></li>
+          <li className="nav-opt"><Link to='/leadership'>LEADERSHIP<br />DEVELOPMENT</Link></li>
+          <li className="nav-opt"><Link to='/personal'>PERSONAL<br />DEVELOPMENT</Link></li>
+          <li className="nav-opt"><Link to='/nutrition'>SPORTS<br />NUTRITION</Link></li>
+          <li className="nav-opt"><Link to='/stories'>OUR<br />STORIES</Link></li>
+          <li className="nav-opt"><Link to='/events'>UPCOMING<br />EVENTS</Link></li>
+        </ul>
       </div>
     </nav>
   </div>
