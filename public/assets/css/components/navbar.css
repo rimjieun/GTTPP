@@ -10,3 +10,18 @@ img.brand-logo {
   height: auto;
 }
 
+
+/*Buttons*/
+
+/*Dropdown*/
+ul#nav-mobile li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 30px;
+}
+
+
+ul#development {
+  margin-top: 64px;
+}
