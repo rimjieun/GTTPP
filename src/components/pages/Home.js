@@ -2,36 +2,38 @@ import React from 'react';
 
 const Home = props => (
   <div>
-    <div id="myCarousel" className="carousel slide" data-ride="carousel">
-  
-      <ol className="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
+    <div className="parallax-container">
+      <div className="parallax">
+        <img src="images/parallax1.jpg"/>
 
-      <div className="carousel-inner">
-          <div className="item active">
-          <img src="./assets/images/jwob/JWOB1.JPG" alt="Los Angeles" />
-          </div>
-
-          <div className="item">
-          <img src="./assets/images/jwob/JWOB2.JPG" alt="Chicago" />
-          </div>
-
-          <div className="item">
-          <img src="./assets/images/jwob/JWOB3.JPG" alt="New York" />
-          </div>
+        <div className="carousel carousel-slider">
+          <a className="carousel-item" href="#one!">
+            <img className="responsive-img" src="./assets/images/jwob/JWOB1.JPG" />
+          </a>
+          <a className="carousel-item" href="#two!">
+        <img className="responsive-img" src="./assets/images/jwob/JWOB2.JPG"/>
+          </a>
+          <a className="carousel-item" href="#three!">
+        <img className="responsive-img" src="./assets/images/jwob/JWOB3.JPG"/>
+          </a>
+          <a className="carousel-item" href="#four!">
+        <img className="responsive-img" src="./assets/images/jwob/JWOB4.JPG" />
+          </a>
+        </div>
       </div>
 
-        <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span className="glyphicon glyphicon-chevron-left"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="right carousel-control" href="#myCarousel" data-slide="next">
-          <span className="glyphicon glyphicon-chevron-right"></span>
-          <span className="sr-only">Next</span>
-        </a>
+      <div className="section white">
+        <div className="row container">
+          <h2 className="header">Parallax</h2>
+          <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+      </div>
+
+      <div className="parallax-container">
+        <div className="parallax">
+          <img src="./assets/images/JWOB5.JPG" />>
+        </div>
+      </div>
     </div>
   </div>
 );
