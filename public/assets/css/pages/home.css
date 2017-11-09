@@ -1,0 +1,15 @@
+.main {
+    height: 100%;
+}
+
+.parallax img {
+    width: 100%;
+    height: auto;
+}
+
+.parallax-container .parallax img {
+    display: block !important;
+}
+.carousel-item {
+    height: auto !important;
+}
