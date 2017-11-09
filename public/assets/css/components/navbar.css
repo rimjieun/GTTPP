@@ -1,4 +1,16 @@
+/*
+Gold: #b39454
+White: #FFFFFF
+Navy: #00254c
+*/
+
 /*NAVBAR*/
+nav {
+  background-color: transparent;
+  background: #262626;
+  /*opacity: ;*/
+}
+
 
 /*Logo*/
 a.brand-logo {
@@ -12,16 +24,39 @@ img.brand-logo {
 
 
 /*Buttons*/
-
-/*Dropdown*/
-ul#nav-mobile li a {
-  font-size: 18px;
+ul li a {
   font-weight: bold;
   text-align: center;
-  padding: 0 30px;
+  -webkit-transition: color 0.4s;
+  -moz-transition:    color 0.4s;
+  -ms-transition:     color 0.4s;
+  -o-transition:      color 0.4s;
+  transition:         color 0.4s;
 }
 
+ul#nav-mobile li a {
+  font-size: 18px;
+  color: #e5e5e5;
+}
 
+ul#nav-mobile li a:hover {
+  background: none;
+  color: #eeb211;
+}
+
+/*Dropdown*/
 ul#development {
   margin-top: 64px;
+  background: #262626;
 }
+
+ul#development li a {
+  font-size: 12px;
+  color: #eeb211;
+}
+
+ul#development li a:hover {
+  color: #262626;
+}
+
+

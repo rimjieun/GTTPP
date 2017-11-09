@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = props => (
-  <div>
+  <div className="navbar-fixed">
     <nav>
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo">
-          <img className="brand-logo" alt="Brand" src="./assets/images/logos/GT-Primary-light-background.png" />
+          <img className="brand-logo" alt="Brand" src="./assets/images/logos/gt-white-goldoutline.png" />
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li><Link to="/">HOME</Link></li>
