@@ -5,9 +5,9 @@ import Footer from './common/Footer';
 const Main = props => (
   <div>
     <Navbar />
-    <div className="main-section">
+    <main>
       {props.children}
-    </div>
+    </main>
     <Footer />
   </div>
 );
