@@ -15,13 +15,13 @@ const routes = (
   <Router>
     <Main>
       <Route exact path='/' component={Home} />
-      <Route path='/alumni' component={Alumni} />
-      <Route path='/career' component={Career} />
-      <Route path='/community' component={Community} />
-      <Route path='/leadership' component={Leadership} />
-      <Route path='/personal' component={Personal} />
-      <Route path='/nutrition' component={Nutrition} />
-      <Route path='/stories' component={Stories} />
+      <Route path='/alumni-get-involved' component={Alumni} />
+      <Route path='/career-development' component={Career} />
+      <Route path='/community-outreach' component={Community} />
+      <Route path='/leadership-development' component={Leadership} />
+      <Route path='/personal-development' component={Personal} />
+      <Route path='/sports-nutrition' component={Nutrition} />
+      <Route path='/our-stories' component={Stories} />
       <Route path='/events' component={Events} />
     </Main>
   </Router>
