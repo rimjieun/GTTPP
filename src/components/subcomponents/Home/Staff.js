@@ -4,12 +4,27 @@ const Staff = props => (
     <div className='our-staff'>
         <h2 className="header">OUR STAFF</h2>
         <div>
-          <ul className='flex-row content-spread'>
-            <li>Joleen Akin</li>
-            <li>Leah Thomas</li>
-            <li>Maureen Tremblay</li>
-            <li>Derrick Moore</li>
-            <li>Lucius Sanford</li>
+          <ul className='flex-row'>
+            <li>
+              <img src='./assets/images/staff-placeholder.png' />
+              Joleen Akin
+            </li>
+            <li>
+              <img src='./assets/images/staff-placeholder.png' />
+              Leah Thomas
+            </li>
+            <li>
+              <img src='./assets/images/staff-placeholder.png' />
+              Maureen Tremblay
+            </li>
+            <li>
+              <img src='./assets/images/staff-placeholder.png' />
+              Derrick Moore
+            </li>
+            <li>
+              <img src='./assets/images/staff-placeholder.png' />
+              Lucius Sanford
+            </li>
           </ul>
         </div>
     </div>
