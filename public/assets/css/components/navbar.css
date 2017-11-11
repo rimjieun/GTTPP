@@ -8,13 +8,13 @@ Navy: #00254c
 nav {
   background-color: transparent;
   background: #262626;
-  /*opacity: ;*/
+  /*padding: 0 70px;*/
 }
 
 
 /*Logo*/
 a.brand-logo {
-  margin: 8px 0 0 8px;
+  margin-top: 8px;
 }
 
 img.brand-logo {
@@ -25,23 +25,26 @@ img.brand-logo {
 
 /*Buttons*/
 ul li a {
-  font-weight: bold;
   text-align: center;
-  -webkit-transition: color 0.4s;
-  -moz-transition:    color 0.4s;
-  -ms-transition:     color 0.4s;
-  -o-transition:      color 0.4s;
-  transition:         color 0.4s;
+  -webkit-transition: color 0.3s;
+  -moz-transition:    color 0.3s;
+  -ms-transition:     color 0.3s;
+  -o-transition:      color 0.3s;
+  transition:         color 0.3s;
+  color: #e5e5e5;
+}
+
+ul li a:hover {
+  color: #eeb211;
 }
 
 ul#nav-mobile li a {
   font-size: 18px;
-  color: #e5e5e5;
+  font-weight: bold;
 }
 
 ul#nav-mobile li a:hover {
   background: none;
-  color: #eeb211;
 }
 
 /*Dropdown*/
