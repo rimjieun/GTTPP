@@ -3,9 +3,10 @@ import { About, Carousel, Mission, Staff, Stories, TwitterFeed, Values } from '.
 
 const Home = props => (
   <div className="main">
+    <div className="carousel-section"><Carousel/></div>
     <div className="parallax-container">
       <div className="parallax">
-        <Carousel />
+        <img src="./assets/image/jwob/JWOB4.JPG"/>
       </div>
     </div>
 
@@ -27,7 +28,10 @@ const Home = props => (
       </div>
     </div>
 
-    <div><TwitterFeed/></div>
+    <div className='custom-container'>
+      <Staff />
+    </div>
+
   </div>
 );
 
