@@ -1,24 +1,23 @@
 import React from 'react';
+import { About, Carousel, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
 
 const Home = props => (
   <div className="main">
     <div className="parallax-container">
       <div className="parallax">
-      
+        <Carousel />
       </div>
     </div>
 
     <div className="section white">
       <div className="row container">
-        <h2 className="header">Parallax</h2>
-        <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <About />
       </div>
     </div>
 
     <div className="section white">
       <div className="row container">
-        <h2 className="header">Parallax</h2>
-        <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <Mission/>
       </div>
     </div>
 
@@ -27,6 +26,8 @@ const Home = props => (
         <img src="./assets/images/jwob/JWOB5.JPG" />
       </div>
     </div>
+
+    <div><TwitterFeed/></div>
   </div>
 );
 
