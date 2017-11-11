@@ -27,7 +27,6 @@ const Home = props => (
       </div>
     </div>
 
-    <div><TwitterFeed/></div>
   </div>
 );
 
