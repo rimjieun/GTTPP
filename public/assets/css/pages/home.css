@@ -1,5 +1,6 @@
 .main {
     height: 100%;
+    margin-top: 100px;
 }
 
 .parallax img {
@@ -12,4 +13,52 @@
 }
 .carousel-item {
     height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Staff*/
+div.our-staff h2 {
+  text-align: center;
+}
+
+div.our-staff li {
+  /*background: lightblue;*/
+  flex-direction: column;
+}
+
+div.our-staff img {
+  width: 100px;
+  height: auto;
 }
