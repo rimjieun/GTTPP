@@ -11,10 +11,11 @@ const Navbar = props => (
           </Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><Link to="/">HOME</Link></li>
-            <li><Link to="/alumni-get-involved">ALUMNI/GET INVOLVED</Link></li>
+            <li><Link to="/alumni">ALUMNI</Link></li>
             <li><Link to="#!" className="dropdown-button" data-activates="development">DEVELOPMENT<i className="material-icons right">arrow_drop_down</i></Link></li>
             <li><Link to="/our-stories">OUR STORIES</Link></li>
             <li><Link to="/events">EVENTS</Link></li>
+            <li><Link to="/get-involved">GET INVOLVED</Link></li>
           </ul>
         </div>
       </nav>
