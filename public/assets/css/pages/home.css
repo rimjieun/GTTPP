@@ -15,6 +15,9 @@
     height: auto !important;
 }
 
+.carousel-section {
+    position: fixed;
+}
 
 
 
