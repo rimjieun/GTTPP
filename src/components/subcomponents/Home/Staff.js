@@ -2,8 +2,16 @@ import React from 'react';
 
 const Staff = props => (
     <div>
-        <h2 className="header">Parallax</h2>
-        <p className="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        <h2 className="header">OUR STAFF</h2>
+        <div>
+          <ul className='flex-row content-spread'>
+            <li>Joleen Akin</li>
+            <li>Leah Thomas</li>
+            <li>Maureen Tremblay</li>
+            <li>Derrick Moore</li>
+            <li>Lucius Sanford</li>
+          </ul>
+        </div>
     </div>
 );
 
