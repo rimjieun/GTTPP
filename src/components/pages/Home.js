@@ -27,6 +27,10 @@ const Home = props => (
       </div>
     </div>
 
+    <div className='custom-container'>
+      <Staff />
+    </div>
+
   </div>
 );
 

@@ -13,3 +13,8 @@
 .carousel-item {
     height: auto !important;
 }
+
+/*Staff*/
+div.our-staff h2 {
+  text-align: center;
+}
