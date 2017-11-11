@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mission, Navigation, ContactUs } from './../components/Footer';
+import { Mission, Navigation, ContactUs } from './../subcomponents/Footer';
 
 const Footer = props => (
   <footer>
