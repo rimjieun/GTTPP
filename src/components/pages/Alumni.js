@@ -1,10 +1,9 @@
 import React from 'react';
-import { LWC, Form, YLWC } from './../components/Alumni';
+import { LWC, YLWC } from './../components/Alumni';
 
 const Alumni = props => (
-  <div>
+  <div className='alumni'>
     <LWC />
-    <Form />
     <YLWC />
   </div>
 );

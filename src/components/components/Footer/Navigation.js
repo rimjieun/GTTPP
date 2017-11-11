@@ -5,14 +5,14 @@ const Navigation = props => (
     <ul className='flex-col'>
       <li><a href='#'>About Us</a></li>
       <li><a href='#'>Our Staff</a></li>
-      <li><a href='#'>Alumni/Get Involved</a></li>
-      <li><a href='#'>Community Outreach</a></li>
-      <li><a href='#'>Upcoming Events</a></li>
-      <li><a href='#'>Career Development</a></li>
-      <li><a href='#'>Leadership Development</a></li>
-      <li><a href='#'>Personal Development</a></li>
-      <li><a href='#'>Sports Nutrition</a></li>
-      <li><a href='#'>Our Stories</a></li>
+      <li><a href='/alumni'>Alumni</a></li>
+      <li><a href='/community-outreach'>Community Outreach</a></li>
+      <li><a href='/events'>Events</a></li>
+      <li><a href='/career-development'>Career Development</a></li>
+      <li><a href='/leadership-development'>Leadership Development</a></li>
+      <li><a href='/personal-development'>Personal Development</a></li>
+      <li><a href='/sports-nutrition'>Sports Nutrition</a></li>
+      <li><a href='/get-involved'>Get Involved</a></li>
     </ul>
   </div>
 );
