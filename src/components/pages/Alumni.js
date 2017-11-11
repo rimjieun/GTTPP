@@ -1,8 +1,11 @@
 import React from 'react';
+import { LWC, Form, YLWC } from './../components/Alumni';
 
 const Alumni = props => (
   <div>
-    This is the Alumni/Get Involved page.
+    <LWC />
+    <Form />
+    <YLWC />
   </div>
 );
 
