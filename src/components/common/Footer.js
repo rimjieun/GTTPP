@@ -5,12 +5,9 @@ const Footer = props => (
   <footer>
     <div className='custom-container flex-col content-spread'>
       <div className='top flex-row content-spread'>
-      <Mission />
-      <ContactUs />
+        <Mission />
+        <ContactUs />
         <Navigation />
-        
-        
-        
       </div>
       <div className='bottom'>
         <ul className='flex-row content-center'>
