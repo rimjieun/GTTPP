@@ -2,34 +2,28 @@ import React from 'react';
 import { About, Carousel, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
 
 const Home = props => (
-  <div className="main">
-    <div className="carousel-section"><Carousel/></div>
-    <div className="parallax-container">
-      <div className="parallax">
-        <img src="./assets/image/jwob/JWOB4.JPG"/>
-      </div>
+  <div className='main'>
+    <div className='carousel-section'>
+      <Carousel/>
     </div>
-
-    <div className="section white">
-      <div className="row container">
+    <div className='section custom-container'>
+      <div className='row'>
         <About />
       </div>
     </div>
 
-    <div className="section white">
-      <div className="row container">
+    <div className='section custom-container'>
+      <div className='row'>
         <Mission/>
-      </div>
-    </div>
-
-    <div className="parallax-container">
-      <div className="parallax">
-        <img src="./assets/images/jwob/JWOB5.JPG" />
       </div>
     </div>
 
     <div className='custom-container'>
       <Staff />
+    </div>
+
+    <div>
+      <button className='btn'>Get Involed</button>
     </div>
 
   </div>

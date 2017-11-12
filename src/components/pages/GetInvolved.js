@@ -1,8 +1,9 @@
 import React from 'react';
+import { GetInvolvedForm } from "./../subcomponents/Forms";
 
 const GetInvolved = props => (
   <div className='custom-container'>
-    This is the Get Involved page.
+    <GetInvolved/>
   </div>
 );
 
