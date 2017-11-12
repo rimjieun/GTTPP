@@ -1,6 +1,8 @@
 import React from 'react';
 import { About, Carousel, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
 
+import { GetInvolvedForm } from "./../subcomponents/Forms";
+
 const Home = props => (
   <div className='main'>
     <div className='carousel-section'>
@@ -8,7 +10,7 @@ const Home = props => (
     </div>
     <div className='section custom-container'>
       <div className='row'>
-        <About />
+        <About/>
       </div>
     </div>
 
@@ -19,7 +21,7 @@ const Home = props => (
     </div>
 
     <div className='custom-container'>
-      <Staff />
+      <Staff/>
     </div>
 
     <div>
