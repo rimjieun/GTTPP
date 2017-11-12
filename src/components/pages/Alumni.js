@@ -1,5 +1,5 @@
 import React from 'react';
-import { LWC, YLWC } from './../subcomponents/Alumni';
+import { Banner, LWC, YLWC } from './../subcomponents/Alumni';
 
 const Alumni = props => (
   <div className='alumni'>
