@@ -1,6 +1,8 @@
 import React from 'react';
 import { About, Carousel, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
 
+import { GetInvolvedForm } from "./../subcomponents/Forms";
+
 const Home = props => (
   <div className='main'>
     <div className='carousel-section'>
