@@ -1,4 +1,40 @@
+/*ALUMNI*/
 div.alumni {
   color: #262626;
-  background: #e5e5e5;
+  /*background: #e5e5e5;*/
+}
+
+/*Banner*/
+div.banner-alumni {
+  background-image: url('../../images/extra/extra-1.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+}
+
+h1.banner-alumni {
+  font-size: 40px;
+  margin-top: 100px;
+  font-style: italic;
+}
+
+h3.banner-alumni {
+  font-size: 70px;
+  font-style: italic;
+  position: relative;
+  left: 70px;
+}
+
+h6.banner-alumni {
+  float: right;
+  width: 480px;
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 70px;
+}
+
+.alumni-lwc img {
+  margin-left: 20px;
+  width: 38%;
+  align-self: center;
 }
