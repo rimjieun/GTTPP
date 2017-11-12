@@ -8,7 +8,7 @@ const Home = props => (
     </div>
     <div className='section custom-container'>
       <div className='row'>
-        <About />
+        <About/>
       </div>
     </div>
 
@@ -19,7 +19,7 @@ const Home = props => (
     </div>
 
     <div className='custom-container'>
-      <Staff />
+      <Staff/>
     </div>
 
     <div>
