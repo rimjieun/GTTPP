@@ -1,6 +1,5 @@
 .main {
     height: 100%;
-    margin-top: 100px;
 }
 
 .parallax img {
@@ -16,7 +15,7 @@
 }
 
 .carousel-section {
-    position: fixed;
+
 }
 
 
