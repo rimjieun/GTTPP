@@ -5,7 +5,7 @@ const Navbar = props => (
   <header>
     <div className="navbar-fixed">
       <nav>
-        <div className="custom-container nav-wrapper">
+        <div className="page-container nav-wrapper">
           <Link to="/" className="brand-logo">
             <img className="brand-logo" alt="Brand" src="./assets/images/logos/gt-white-goldoutline.png" />
           </Link>
