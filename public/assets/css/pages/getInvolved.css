@@ -1,4 +1,3 @@
-.form {
-    height: 2000px;
-    overflow: visible;
+iframe {
+    height: 100vh;
 }
