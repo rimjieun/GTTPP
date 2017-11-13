@@ -3,7 +3,7 @@ import { Mission, Navigation, ContactUs } from './../subcomponents/Footer';
 
 const Footer = props => (
   <footer>
-    <div className='custom-container flex-col content-spread'>
+    <div className='page-container flex-col content-spread'>
       <div className='top flex-row content-spread'>
         <Mission />
         <ContactUs />
