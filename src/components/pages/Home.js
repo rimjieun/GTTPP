@@ -26,21 +26,21 @@ class Home extends Component {
               '/assets/images/career/career-3.jpg'
             ]} />
         </div>
-        <div className='section custom-container'>
+        <section className='page-container'>
           <div className='row'>
             <About/>
           </div>
-        </div>
+        </section>
 
-        <div className='section custom-container'>
+        <section className='page-container'>
           <div className='row'>
             <Mission/>
           </div>
-        </div>
+        </section>
 
-        <div className='custom-container'>
+        <section className='page-container'>
           <Staff/>
-        </div>
+        </section>
 
         <div>
           <button className='btn'>Get Involed</button>
