@@ -10,12 +10,13 @@ import Personal from './../components/pages/Personal';
 import Nutrition from './../components/pages/Nutrition';
 import Stories from './../components/pages/Stories';
 import Events from './../components/pages/Events';
+import GetInvolved from './../components/pages/GetInvolved';
 
 const routes = (
   <Router>
     <Main>
       <Route exact path='/' component={Home} />
-      <Route path='/alumni-get-involved' component={Alumni} />
+      <Route path='/alumni' component={Alumni} />
       <Route path='/career-development' component={Career} />
       <Route path='/community-outreach' component={Community} />
       <Route path='/leadership-development' component={Leadership} />
@@ -23,6 +24,7 @@ const routes = (
       <Route path='/sports-nutrition' component={Nutrition} />
       <Route path='/our-stories' component={Stories} />
       <Route path='/events' component={Events} />
+      <Route path='/get-involved' component={GetInvolved} />
     </Main>
   </Router>
 );
