@@ -1,3 +1,7 @@
+.carousel {
+    height: 650px !important;
+}
+
 .about-section {
     background-color: #eeb211;
 }
