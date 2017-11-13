@@ -14,12 +14,17 @@ class Home extends Component {
     return (
       <div className='main'>
         <div className='carousel-section'>
-          <Carousel images={[
-            './assets/images/career/career-1.jpg',
-            './assets/images/community-service/community-service-1.jpg',
-            './assets/images/jwob/JWOB3.JPG',
-            '/assets/images/career/career-3.jpg'
-          ]} />
+          <Carousel options={{ 
+            fullWidth: true, 
+            duration: 100, 
+            indicators: true 
+            }} 
+            images={[
+              './assets/images/career/career-1.jpg',
+              './assets/images/community-service/community-service-1.jpg',
+              './assets/images/jwob/JWOB3.JPG',
+              '/assets/images/career/career-3.jpg'
+            ]} />
         </div>
         <div className='section custom-container'>
           <div className='row'>
