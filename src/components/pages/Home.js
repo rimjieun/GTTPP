@@ -24,8 +24,8 @@ class Home extends Component {
               <div className='banner-text'>
                 <div className='page-container'>
                   <Mission />
-                  <Button className='btn'>Learn More</Button>
-                  <Button className='btn'>Get Involved</Button>
+                  <Button className='btn' node='a' href='#about'>Learn More</Button>
+                  <Button className='btn' node='a' href='/get-involved'>Get Involved</Button>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ class Home extends Component {
             </div>
             </Carousel>
         </div>
-        <section className='about-section custom-container'>
+        <section className='about-section custom-container' id='about'>
           <div className='row'>
             <About/>
           </div>
