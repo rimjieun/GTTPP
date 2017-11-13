@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel } from "react-materialize";
+import { Carousel, Button } from "react-materialize";
 import { About, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
 
 
@@ -18,33 +18,54 @@ class Home extends Component {
             fullWidth: true, 
             duration: 100, 
             indicators: true 
-            }} 
-            images={[
-              './assets/images/career/career-1.jpg',
-              './assets/images/community-service/community-service-1.jpg',
-              './assets/images/jwob/JWOB3.JPG',
-              '/assets/images/career/career-3.jpg'
-            ]} />
+            }}>
+            <div className='banner first-panel center'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <Mission />
+                  <Button className='btn'>Learn More</Button>
+                </div>
+              </div>
+            </div>
+            <div className='banner second-panel'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <h1>Second panel</h1>
+                </div>
+              </div>
+            </div>
+            <div className='banner third-panel'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <h1>Third panel</h1>
+                </div>
+              </div>
+            </div>
+            <div className='banner fourth-panel'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <h1>Fourth panel</h1>
+                </div>
+              </div>
+            </div>
+            </Carousel>
         </div>
-        <div className='section custom-container'>
+        <section className='about-section custom-container'>
           <div className='row'>
             <About/>
           </div>
-        </div>
-
-        <div className='section custom-container'>
-          <div className='row'>
-            <Mission/>
-          </div>
-        </div>
-
-        <div className='custom-container'>
+        </section>
+        <section className='staff-section custom-container'>
           <Staff/>
-        </div>
+        </section>
 
-        <div>
-          <button className='btn'>Get Involed</button>
-        </div>
+        <section>
+          <Button className='btn'>Get Involved</Button>
+        </section>
 
       </div>
     )}
