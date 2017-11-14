@@ -9,7 +9,16 @@ class Home extends Component {
   constructor() {
     super();
   }
+
+  componentWillMount() {
+    this.autoplay();
+  }
   
+  autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(this.autoplay, 4500);
+  }
+
   render () {
     return (
       <div className='main'>
