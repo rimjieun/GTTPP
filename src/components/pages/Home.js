@@ -10,8 +10,10 @@ class Home extends Component {
     super();
   }
 
-  componentWillMount() {
-    this.autoplay();
+  componentDidMount() {
+    $('.carousel').carousel({
+      duration: 100
+    });
   }
   
   autoplay() {
