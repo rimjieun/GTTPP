@@ -1,23 +1,30 @@
-.main {
-    height: 100%;
+.carousel {
+    height: 650px !important;
 }
 
-.parallax img {
-    width: 100%;
-    height: auto;
+.about-section {
+    background-color: #eeb211;
 }
 
-.parallax-container .parallax img {
-    display: block !important;
-}
-.carousel-item {
-    height: auto !important;
+.first-panel {
+    background-image: url("../../images/career/career-1.jpg");
+    background-size: cover;
 }
 
-.carousel-section {
-
+.second-panel {
+    background-image: url("../../images/community-service/community-service-1.JPG");
+    background-size: cover;
 }
 
+.third-panel {
+    background-image: url("../../images/jwob/JWOB3.JPG");
+    background-size: cover;
+}
+
+.fourth-panel {
+    background-image: url("../../images/career/career-3.jpg");
+    background-size: cover;
+}
 
 
 

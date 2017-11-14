@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel } from "react-materialize";
+import { Carousel, Button } from "react-materialize";
 import { About, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
 
 
@@ -18,33 +18,66 @@ class Home extends Component {
             fullWidth: true, 
             duration: 100, 
             indicators: true 
-            }} 
-            images={[
-              './assets/images/career/career-1.jpg',
-              './assets/images/community-service/community-service-1.jpg',
-              './assets/images/jwob/JWOB3.JPG',
-              '/assets/images/career/career-3.jpg'
-            ]} />
+            }}>
+            <div className='banner first-panel center'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <Mission />
+                  <Button className='btn' node='a' href='#about'>Learn More</Button>
+                  <Button className='btn' node='a' href='/get-involved'>Get Involved</Button>
+                </div>
+              </div>
+            </div>
+            <div className='banner second-panel'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <h1>Second panel</h1>
+                </div>
+              </div>
+            </div>
+            <div className='banner third-panel'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <h1>Third panel</h1>
+                </div>
+              </div>
+            </div>
+            <div className='banner fourth-panel'>
+              <div className='layer'></div>
+              <div className='banner-text'>
+                <div className='page-container'>
+                  <h1>Fourth panel</h1>
+                </div>
+              </div>
+            </div>
+            </Carousel>
         </div>
-        <section className='page-container'>
+        <section className='about-section custom-container' id='about'>
           <div className='row'>
             <About/>
           </div>
         </section>
-
-        <section className='page-container'>
+        <section className='upcoming-section custom-container'>
           <div className='row'>
-            <Mission/>
+            <p>Upcoming events section</p>
           </div>
         </section>
-
-        <section className='page-container'>
+        <section className='stories-section custom-container'>
+          <div className='row'>
+            <p>Our Stories sections</p>
+          </div>
+        </section>
+        <section className='staff-section custom-container'>
           <Staff/>
         </section>
-
-        <div>
-          <button className='btn'>Get Involed</button>
-        </div>
+        <section className='twitter-section custom-container'>
+          <div className='row'>
+            <p>Twitter sections</p>
+          </div>
+        </section>
 
       </div>
     )}
