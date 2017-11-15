@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel, Button } from "react-materialize";
-import { About, Mission, Staff, Stories, TwitterFeed, Values } from './../subcomponents/Home';
+import { About, Mission, Staff, Stories, TwitterFeed, Values, Events } from './../subcomponents/Home';
 
 
 import { GetInvolvedForm } from "./../subcomponents/Forms";
@@ -32,16 +32,16 @@ class Home extends Component {
             }}>
             <div className='banner first-panel center'>
               <div className='layer'></div>
-              <div className='banner-text'>
-                <div className='page-container'>
+              <div className='banner-text carousel-text'>
+                <div className='page-container carousel-content'>
+                  <h2>Georgia Tech Total Person Program</h2>
                   <Mission />
-                  <Button className='btn' node='a' href='#about'>Learn More</Button>
-                  <Button className='btn' node='a' href='/get-involved'>Get Involved</Button>
                 </div>
+                <Button className='btn carousel-btn' node='a' href='#about'>Learn More</Button>
+                <Button className='btn carousel-btn' node='a' href='/get-involved'>Get Involved</Button>
               </div>
             </div>
             <div className='banner second-panel'>
-              <div className='layer'></div>
               <div className='banner-text'>
                 <div className='page-container'>
                   <h1>Second panel</h1>
@@ -57,7 +57,6 @@ class Home extends Component {
               </div>
             </div>
             <div className='banner fourth-panel'>
-              <div className='layer'></div>
               <div className='banner-text'>
                 <div className='page-container'>
                   <h1>Fourth panel</h1>
@@ -71,20 +70,20 @@ class Home extends Component {
             <About/>
           </div>
         </section>
-        <section className='upcoming-section custom-container'>
+        <section className='upcoming-section custom-container black-bg'>
           <div className='row'>
-            <p>Upcoming events section</p>
+            <Events/>
           </div>
         </section>
-        <section className='stories-section custom-container'>
+        <section className='stories-section custom-container white-bg'>
           <div className='row'>
-            <p>Our Stories sections</p>
+            <Stories/>
           </div>
         </section>
-        <section className='staff-section custom-container'>
+        <section className='staff-section custom-container lightgray-bg'>
           <Staff/>
         </section>
-        <section className='twitter-section custom-container'>
+        <section className='twitter-section custom-container lightgray-bg'>
           <div className='row'>
             <p>Twitter sections</p>
           </div>
