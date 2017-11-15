@@ -14,6 +14,8 @@ class Home extends Component {
     $('.carousel').carousel({
       duration: 100
     });
+
+    !function (a, b, c, d, e, f, g, h, i, j, k) { h = a[d] = a[d] || {}, h.ui = h.ui || [], i = a[e] = a[e] || {}, i[f] || (j = b.getElementsByTagName(c)[0], k = b.createElement(c), k.src = "//platform.massrelevance.com/js/massrel.js", j.parentNode.insertBefore(k, j), i[f] = function () { h.ui.push([].slice.call(arguments)) }), i[f]("load", { el: b.getElementById(g) }) }(window, document, "script", "massrel", "spredfast", "exp", "mr-space_ramblinwreck_com-georgiatechfb-media_wall");
   }
   
   autoplay() {
@@ -37,8 +39,8 @@ class Home extends Component {
                   <h2>Georgia Tech Total Person Program</h2>
                   <Mission />
                 </div>
-                <Button className='btn carousel-btn' node='a' href='#about'>Learn More</Button>
-                <Button className='btn carousel-btn' node='a' href='/get-involved'>Get Involved</Button>
+                <Button className='btn carousel-btn lightgray-bg black-text' node='a' href='#about'>Learn More</Button>
+                <Button className='btn carousel-btn lightgray-bg black-text' node='a' href='/get-involved'>Get Involved</Button>
               </div>
             </div>
             <div className='banner second-panel'>
@@ -75,18 +77,16 @@ class Home extends Component {
             <Events/>
           </div>
         </section>
-        <section className='stories-section custom-container white-bg'>
+        <section className='stories-section custom-container lightgray-bg'>
           <div className='row'>
             <Stories/>
           </div>
         </section>
-        <section className='staff-section custom-container lightgray-bg'>
+        <section className='staff-section custom-container white-bg'>
           <Staff/>
         </section>
-        <section className='twitter-section custom-container lightgray-bg'>
-          <div className='row'>
-            <p>Twitter sections</p>
-          </div>
+        <section className='twitter-section lightgray-bg'>
+          <TwitterFeed/>
         </section>
 
       </div>
