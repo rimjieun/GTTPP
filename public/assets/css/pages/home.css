@@ -1,10 +1,25 @@
 .carousel {
-    height: 650px !important;
+    height: 575px !important;
 }
 
-.about-section {
-    background-color: #eeb211;
+.carousel-text {
+    color: white;
 }
+
+.carousel-content{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+div.p.mission-text {
+    font-size: 40px;
+}
+
+.carousel-btn {
+    top: 100%;
+    margin: 10px;
+}
+
 
 .first-panel {
     background-image: url("../../images/career/career-1.jpg");
@@ -27,7 +42,13 @@
 }
 
 
+.about-section {
+    background-color: #eeb211;
+}
 
+.twitter-section {
+    padding: 0;
+}
 
 
 
