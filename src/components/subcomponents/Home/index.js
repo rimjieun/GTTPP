@@ -4,6 +4,7 @@ import Staff from './Staff';
 import Stories from './Stories';
 import TwitterFeed from './TwitterFeed';
 import Values from './Values';
+import Events from './Events';
 
 module.exports = {
     About,
@@ -11,6 +12,7 @@ module.exports = {
     Staff, 
     Stories, 
     TwitterFeed, 
-    Values
+    Values, 
+    Events
 };
 

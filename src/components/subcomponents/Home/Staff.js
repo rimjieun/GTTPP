@@ -2,7 +2,7 @@ import React from 'react';
 
 const Staff = props => (
     <div className='our-staff'>
-        <h2 className="header">OUR STAFF</h2>
+        <h1 className="header center">OUR STAFF</h1>
         <div>
           <ul className='flex-row'>
             <li>
