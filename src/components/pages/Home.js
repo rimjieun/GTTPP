@@ -10,23 +10,14 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    $('.carousel').carousel({
-      duration: 100
-    });
-
     !function (a, b, c, d, e, f, g, h, i, j, k) { h = a[d] = a[d] || {}, h.ui = h.ui || [], i = a[e] = a[e] || {}, i[f] || (j = b.getElementsByTagName(c)[0], k = b.createElement(c), k.src = "//platform.massrelevance.com/js/massrel.js", j.parentNode.insertBefore(k, j), i[f] = function () { h.ui.push([].slice.call(arguments)) }), i[f]("load", { el: b.getElementById(g) }) }(window, document, "script", "massrel", "spredfast", "exp", "mr-space_ramblinwreck_com-georgiatechfb-media_wall");
-  }
-  
-  autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(this.autoplay, 4500);
   }
 
   render () {
     return (
       <div>
         <HomeCarousel />
-        <section className='yellow-bg black-text'>
+        <section className='white-bg black-text'>
           <About/>
         </section>
         <section className='black-bg white-text'>

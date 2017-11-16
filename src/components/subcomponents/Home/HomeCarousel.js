@@ -2,28 +2,22 @@ import React from 'react';
 import { Carousel } from 'react-materialize';
 import { Banner, SquareButton } from './../../common';
 
-const styles = {
-  button: {
-    margin: '10px'
-  }
-};
-
 const HomeCarousel = props => (
   <Carousel options={{ 
     fullWidth: true,
-    duration: 100, 
+    duration: 400, 
     indicators: true 
     }}>
     <div>
       <Banner img='./assets/images/career/career-1.jpg' textColor='white'>
-        <div className='container-80 carousel-content'>
-          <h2>Georgia Tech Total Person Program</h2>
-          <div className='page-contaier'>
-            <h2 className="header">Our Mission</h2>
-            <p className="mission-text">Georgia Tech Athletics inspires and empowers student-athletes to be champions in academics, competition, and life.</p>
+        <div style={{marginTop: '50px'}} className='flex-col'>
+          <h1 style={{color: '#eeb211', fontSize: '80px'}}>Georgia Tech<br />Total Person Program</h1>
+          <h4>Our Mission</h4>
+          <h6 style={{width: '500px', fontWeight: 'normal', fontStyle: 'italic', fontSize: '20px', lineHeight: '30px'}}>Georgia Tech Athletics inspires and empowers student-athletes to be champions in academics, competition, and life.</h6>
+          <div style={{marginTop: '20px'}} className='flex-row content-center'>
+            <SquareButton backgroundColor='#eeb211' textColor='#262626' url='#about'>Learn More</SquareButton>
+            <SquareButton backgroundColor='#eeb211' textColor='#262626' url='/get-involved'>Get Involved</SquareButton>
           </div>
-          <SquareButton backgroundColor='#eeb211' textColor='#262626' url='#about'>Learn More</SquareButton>
-          <SquareButton backgroundColor='#eeb211' textColor='#262626' url='/get-involved'>Get Involved</SquareButton>
         </div>
       </Banner>
     </div>

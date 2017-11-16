@@ -7,7 +7,7 @@ const Alumni = props => (
     <section className='white-bg black-text'>
       <LWC />
     </section>
-    <section className='lightgray-bg black-text'>
+    <section className='yellow-bg black-text'>
       <YLWC />
     </section>
   </div>
