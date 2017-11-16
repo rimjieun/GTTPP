@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Community = props => (
-  <div>
-    This is the Community Outreach page.
-  </div>
-);
+class Community extends Component {
+  constructor() {
+    super();
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        This is the Community Outreach page.
+      </div>
+    );
+  }
+};
 
 export default Community;

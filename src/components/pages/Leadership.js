@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Leadership = props => (
-  <div>
-    This is the Leadership Development page.
-  </div>
-);
+class Leadership extends Component {
+  constructor() {
+    super();
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        This is the Leadership Development page.
+      </div>
+    );
+  }
+};
 
 export default Leadership;

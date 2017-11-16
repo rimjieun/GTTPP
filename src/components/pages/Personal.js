@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Personal = props => (
-  <div>
-    This is the Personal Development page.
-  </div>
-);
+class Personal extends Component {
+  constructor() {
+    super();
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        This is the Personal Development page.
+      </div>
+    );
+  }
+}
 
 export default Personal;

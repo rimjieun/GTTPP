@@ -31,8 +31,8 @@ const YLWC = props => (
         <h5 style={styles.formTitle}>Did you graduate between 2007-2017?</h5>
         <h5 style={styles.formTitle}>Join our Young Letterwinners Club!</h5>
         <form className='flex-row' style={{marginTop: '30px'}}>
-          <input style={styles.input} type='text' />
-          <SquareButton backgroundColor='#e5e5e5' textColor='#262626' url='#'>Submit</SquareButton>
+          <input style={styles.input} type='text' placeholder='E-mail'/>
+          <SquareButton backgroundColor='#e5e5e5' textColor='#262626' url='#'>Join</SquareButton>
         </form>
       </div>
 
