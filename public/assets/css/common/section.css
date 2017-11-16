@@ -1,0 +1,19 @@
+/*SECTION*/
+section {
+  padding: 70px 0 100px;
+}
+
+section h1 {
+  font-size: 45px;
+}
+
+section div.half p {
+  font-size: 20px;
+  line-height: 40px;
+  max-width: 60%;
+}
+
+section img.half {
+  max-width: 32%;
+  height: auto;
+}
