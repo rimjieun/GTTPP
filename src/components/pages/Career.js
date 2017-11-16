@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BusinessCardForm } from '../subcomponents/Forms';
+import { BusinessCardForm } from './../subcomponents/Forms';
+import { GeneralInfo, StaffContact, FifthStreetBridgeProgram, FirstRoundDraftPick } from './../subcomponents/Career';
 
 class Career extends Component {
   constructor() {
@@ -13,6 +14,18 @@ class Career extends Component {
   render() {
     return (
       <div>
+        <section className='white-bg black-text'>
+          <GeneralInfo />
+        </section>
+        <section className='black-bg lightgray-text'>
+          <StaffContact />
+        </section>
+        <section className='lightgray-bg black-text'>
+          <FifthStreetBridgeProgram />
+        </section>
+        <section className='yellow-bg black-text'>
+          <FirstRoundDraftPick />
+        </section>
         <BusinessCardForm/>
       </div>
     );
