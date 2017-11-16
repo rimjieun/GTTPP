@@ -1,10 +1,9 @@
 import React from 'react';
+import { ColLayout } from './../../common';
 
 const Stories = props => (
-    <div className='page-container'>
-        <h1 className="header center">OUR STORIES</h1>
-        <p className=""></p>
-    </div>
+    <ColLayout title='OUR STORIES'>
+    </ColLayout>
 );
 
 export default Stories;

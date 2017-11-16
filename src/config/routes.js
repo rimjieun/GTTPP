@@ -1,16 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Main from './../components/Main';
-import Home from './../components/pages/Home';
-import Alumni from './../components/pages/Alumni';
-import Career from './../components/pages/Career';
-import Community from './../components/pages/Community';
-import Leadership from './../components/pages/Leadership';
-import Personal from './../components/pages/Personal';
-import Nutrition from './../components/pages/Nutrition';
-import Stories from './../components/pages/Stories';
-import Events from './../components/pages/Events';
-import GetInvolved from './../components/pages/GetInvolved';
+import { Home, Alumni, Career, Community, Events, GetInvolved, Leadership, Nutrition, Personal, Stories } from './../components/pages';
 
 const routes = (
   <Router>
