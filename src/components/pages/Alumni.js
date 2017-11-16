@@ -1,9 +1,9 @@
 import React from 'react';
-import { Banner, LWC, YLWC } from './../subcomponents/Alumni';
+import { AlumniBanner, LWC, YLWC } from './../subcomponents/Alumni';
 
 const Alumni = props => (
   <div className='alumni'>
-    <Banner />
+    <AlumniBanner />
     <section className='white-bg black-text'>
       <LWC />
     </section>

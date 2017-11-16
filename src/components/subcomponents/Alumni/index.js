@@ -1,9 +1,9 @@
-import Banner from './Banner';
+import AlumniBanner from './AlumniBanner';
 import LWC from './LWC';
 import YLWC from './YLWC';
 
 module.exports = {
-  Banner,
+  AlumniBanner,
   LWC,
   YLWC
 };
