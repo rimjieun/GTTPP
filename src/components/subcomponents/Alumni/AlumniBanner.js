@@ -2,18 +2,16 @@ import React from 'react';
 import { Banner } from './../../common';
 
 const styles = {
-  h1: {
-    fontSize: '40px',
+  title: {
     marginTop: '100px',
     fontStyle: 'italic'
   },
-  h3: {
-    fontSize: '70px',
+  subtitle: {
     fontStyle: 'italic',
     position: 'relative',
     left: '70px'
   },
-  h6: {
+  intro: {
     float: 'right',
     width: '480px',
     fontSize: '20px',
@@ -24,9 +22,9 @@ const styles = {
 
 const AlumniBanner = props => (
   <Banner img='./assets/images/extra/extra-1.jpg' textColor='#eeb211'>
-    <h1 style={styles.h1}>Athletes Helping Athletes&mdash;</h1>
-    <h3 style={styles.h3}>A Family for Life</h3>
-    <h6 style={styles.h6}>We share the common bond of excelling in both our sport and classroom. We are not merely atheletes, but student-athletes. Earning a Letter from the Georgia Institute of Technology is an honor not effortlessly achieved.</h6>
+    <h3 style={styles.title}>Athletes Helping Athletes&mdash;</h3>
+    <h1 style={styles.subtitle}>A Family for Life</h1>
+    <h5 style={styles.intro}>We share the common bond of excelling in both our sport and classroom. We are not merely atheletes, but student-athletes. Earning a Letter from the Georgia Institute of Technology is an honor not effortlessly achieved.</h5>
   </Banner>
 );
 

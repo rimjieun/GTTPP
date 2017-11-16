@@ -1,16 +1,17 @@
 $(document).ready(function () {
 
     $('.parallax').parallax();
-    $('.carousel').carousel({
-        duration: 1000,
-        fullWidth: true
-    });
+
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+    function nextSlide() {
+      $('.carousel').carousel('next');
+    }
+    
+    // var carouselInterval = setInterval(nextSlide, 5000);
     
 
     console.log("loaded");
-
-
-
 
 
 });
