@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Stories = props => (
-  <div>
-    This is the Our Stories page.
-  </div>
-);
+class Stories extends Component {
+  constructor() {
+    super();
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        This is the Our Stories page.
+      </div>
+    );
+  }
+};
 
 export default Stories;
