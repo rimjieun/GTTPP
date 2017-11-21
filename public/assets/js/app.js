@@ -6,7 +6,7 @@ $(document).ready(function () {
       $('.carousel').carousel('next');
     }
     
-    // var carouselInterval = setInterval(nextSlide, 6000);
+    var carouselInterval = setInterval(nextSlide, 6000);
     
 
     console.log("loaded");
