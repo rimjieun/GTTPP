@@ -15,7 +15,7 @@ const HomeCarousel = props => (
           <h4>Our Mission</h4>
           <h6 style={{width: '500px', fontWeight: 'normal', fontStyle: 'italic', fontSize: '20px', lineHeight: '30px'}}>Georgia Tech Athletics inspires and empowers student-athletes to be champions in academics, competition, and life.</h6>
           <div style={{marginTop: '20px'}} className='flex-row content-center'>
-            <SquareButton backgroundColor='#eeb211' textColor='#262626' url='#about'>Learn More</SquareButton>
+            <SquareButton backgroundColor='#eeb211' textColor='#262626' name='learn-more'>Learn More</SquareButton>
             <SquareButton backgroundColor='#eeb211' textColor='#262626' url='/get-involved'>Get Involved</SquareButton>
           </div>
         </div>

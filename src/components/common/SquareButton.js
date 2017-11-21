@@ -8,7 +8,7 @@ const SquareButton = props => (
     margin: '0 10px',
     backgroundColor: `${props.backgroundColor}`,
     color: `${props.textColor}`
-  }} node='a' href={props.url}>
+  }} node='a' href={props.url} className={props.name}>
   {props.children}
   </Button>
 );

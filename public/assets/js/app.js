@@ -8,8 +8,15 @@ $(document).ready(function () {
     
     var carouselInterval = setInterval(nextSlide, 6000);
     
+    function pageScroll(pixels){
+      window.scrollTo(0, pixels);
+    }
 
-    console.log("loaded");
+    $('.learn-more').on('click', function() {
+      console.log("clicked");
+      pageScroll(650); 
+    });
+
 
 
 });
