@@ -119,3 +119,7 @@ span.italic {
 .carousel {
     height: 575px !important;
 }
+
+.value{
+  vertical-align: bottom;
+}
