@@ -9,7 +9,7 @@ const HomeCarousel = props => (
     indicators: true 
     }}>
     <div>
-      <Banner img='./assets/images/career/career-1.jpg' textColor='white'>
+      <Banner img='./assets/images/teams/gtfb.jpg' textColor='white'>
         <div style={{marginTop: '50px'}} className='flex-col'>
           <h1 style={{color: '#eeb211', fontSize: '80px'}}>Georgia Tech<br />Total Person Program</h1>
           <h4>Our Mission</h4>
@@ -22,18 +22,19 @@ const HomeCarousel = props => (
       </Banner>
     </div>
     <div>
-      <Banner img='./assets/images/community-service/community-service-1.JPG' textColor='white'>
-        <h1>Second panel</h1>
+      <Banner img='./assets/images/teams/gtswim.jpg' textColor='white'>
+        <div className='value-div'>
+          <h1>Teamwork</h1>
+          <h1 className='second-value'>Character</h1>
+        </div>
       </Banner>
     </div>
     <div>
-      <Banner img='./assets/images/jwob/JWOB3.JPG' textColor='white'>
-        <h1>Third panel</h1>
-      </Banner>
-    </div>
-    <div>
-      <Banner img='./assets/images/career/career-3.jpg' textColor='white'>
-        <h1>Fourth panel</h1>
+      <Banner img='./assets/images/teams/gtbb.jpg' textColor='white'>
+        <div className='value-div'>
+          <h1 className='third-value'>Excellence</h1>
+          <h1 className='fourth-value'>Innovation</h1>
+        </div>
       </Banner>
     </div>
   </Carousel>
