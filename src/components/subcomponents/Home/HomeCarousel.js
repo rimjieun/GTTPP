@@ -23,14 +23,18 @@ const HomeCarousel = props => (
     </div>
     <div>
       <Banner img='./assets/images/teams/gtswim.jpg' textColor='white'>
-        <h1>Teamwork</h1>
-        <h1 className='value right'>Character</h1>
+        <div className='value-div'>
+          <h1>Teamwork</h1>
+          <h1 className='second-value'>Character</h1>
+        </div>
       </Banner>
     </div>
     <div>
       <Banner img='./assets/images/teams/gtbb.jpg' textColor='white'>
-        <h1>Excellence</h1>
-        <h1 className='value right'>Innovation</h1>
+        <div className='value-div'>
+          <h1 className='third-value'>Excellence</h1>
+          <h1 className='fourth-value'>Innovation</h1>
+        </div>
       </Banner>
     </div>
   </Carousel>
