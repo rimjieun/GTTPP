@@ -1,10 +1,10 @@
 import NutritionCenter from './NutritionCenter';
-import Mission from './Mission';
+import NutritionMission from './NutritionMission';
 import Contact from './Contact';
 
 
 module.exports = {
     NutritionCenter,
-    Mission,
+    NutritionMission,
     Contact
 };

@@ -8,10 +8,10 @@ const styles = {
     }
 };
 
-const Mission = props => (
+const NutritionMission = props => (
     <ColLayout title='MISSION'>
         <p style={styles.text}>To promote the importance of food as fuel for peak performance, and to educate student-athletes on the role of proper nutrient selection to impact sports performance, health promotion, and disease prevention.</p>
     </ColLayout>
 );
 
-export default Mission;
+export default NutritionMission;

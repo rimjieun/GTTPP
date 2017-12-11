@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Mission, Contact, NutritionCenter } from './../subcomponents/Nutrition';
+import { NutritionMission, Contact, NutritionCenter } from './../subcomponents/Nutrition';
 
 class Nutrition extends Component {
   constructor() {
@@ -15,7 +15,7 @@ class Nutrition extends Component {
       <div>
         This is the Sports Nutrition page.
         <div className='alumni'>
-          <Mission />
+          <NutritionMission />
           <section className='yellow-bg black-text'>
             <NutritionCenter />
           </section>
