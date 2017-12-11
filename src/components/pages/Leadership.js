@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Mission, Contact, NutritionCenter } from './../subcomponents/Leadership';
+import { AdvisoryBoard, Committees, ExecutiveBoard, FreshmanLeadership, LeadershipMission, LeadershipSeries, Members } from './../subcomponents/Leadership';
 
 
 class Leadership extends Component {
@@ -16,12 +16,24 @@ class Leadership extends Component {
       <div>
         This is the Leadership Development page.
         <div className='alumni'>
-          <AlumniBanner />
+          <LeadershipMission />
           <section className='white-bg black-text'>
-            <LWC />
+            <FreshmanLeadership />
           </section>
           <section className='lightgray-bg'>
-            <h1 className="header center">STAFF CONTACT</h1>
+            <LeadershipSeries />
+          </section>
+          <section className='white-bg black-text'>
+            <AdvisoryBoard />
+          </section>
+          <section className='lightgray-bg'>
+            <Committees />
+          </section>
+          <section className='white-bg black-text'>
+            <ExecutiveBoard />
+          </section>
+          <section className='lightgray-bg'>
+            <Members />
           </section>
         </div>
       </div>
