@@ -13,6 +13,15 @@ class Community extends Component {
     return (
       <div>
         This is the Community Outreach page.
+        <div className='alumni'>
+          <AlumniBanner />
+          <section className='white-bg black-text'>
+            <LWC />
+          </section>
+          <section className='yellow-bg black-text'>
+            <YLWC />
+          </section>
+        </div>
       </div>
     );
   }

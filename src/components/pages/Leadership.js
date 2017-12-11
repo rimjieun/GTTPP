@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Mission, Contact, NutritionCenter } from './../subcomponents/Leadership';
+
 
 class Leadership extends Component {
   constructor() {
@@ -13,6 +15,15 @@ class Leadership extends Component {
     return (
       <div>
         This is the Leadership Development page.
+        <div className='alumni'>
+          <AlumniBanner />
+          <section className='white-bg black-text'>
+            <LWC />
+          </section>
+          <section className='lightgray-bg'>
+            <h1 className="header center">STAFF CONTACT</h1>
+          </section>
+        </div>
       </div>
     );
   }
