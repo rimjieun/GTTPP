@@ -14,28 +14,27 @@ class Leadership extends Component {
   render() {
     return (
       <div>
-        This is the Leadership Development page.
-        <div className='alumni'>
+        <section className='lightgray-bg black-text'>
           <LeadershipMission />
+        </section>
           <section className='white-bg black-text'>
             <FreshmanLeadership />
           </section>
-          <section className='lightgray-bg'>
+          <section className='yellow-bg'>
             <LeadershipSeries />
           </section>
-          <section className='white-bg black-text'>
+          <section className='black-bg white-text'>
             <AdvisoryBoard />
           </section>
-          <section className='lightgray-bg'>
+          <section className='white-bg'>
             <Committees />
           </section>
-          <section className='white-bg black-text'>
+          <section className='darkgray-bg black-text'>
             <ExecutiveBoard />
           </section>
           <section className='lightgray-bg'>
             <Members />
           </section>
-        </div>
       </div>
     );
   }
