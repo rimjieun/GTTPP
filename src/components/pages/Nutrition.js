@@ -13,7 +13,6 @@ class Nutrition extends Component {
   render() {
     return (
       <div>
-        This is the Sports Nutrition page.
         <div className='alumni'>
           <NutritionMission />
           <section className='yellow-bg black-text'>

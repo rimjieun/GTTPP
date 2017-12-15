@@ -8,10 +8,10 @@ const styles = {
     }
 };
 
-const OurStories = props => (
-    <ColLayout title='OUR STORIES'>
-        <p className="header center">Our Stories</p>
+const ServiceCup = props => (
+    <ColLayout title="ATHLETIC DIRECTOR'S COMMNUNITY SERVICE CUP">
+        <p className="header center">Each year, teams compete by accumulating community service hours for recognition in the A.D.’s Community Service cup. The three involved most teams will receive prizes and will be honored at the annual Yellow Jacket Celebration event.</p>
     </ColLayout>
 );
 
-export default OurStories;
+export default ServiceCup;
