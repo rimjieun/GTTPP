@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { AdvisoryBoard, Committees, ExecutiveBoard, FreshmanLeadership, LeadershipMission, LeadershipSeries, Members } from './../subcomponents/Leadership';
+
 
 class Leadership extends Component {
   constructor() {
@@ -12,7 +14,27 @@ class Leadership extends Component {
   render() {
     return (
       <div>
-        This is the Leadership Development page.
+        <section className='lightgray-bg black-text'>
+          <LeadershipMission />
+        </section>
+          <section className='white-bg black-text'>
+            <FreshmanLeadership />
+          </section>
+          <section className='yellow-bg'>
+            <LeadershipSeries />
+          </section>
+          <section className='black-bg white-text'>
+            <AdvisoryBoard />
+          </section>
+          <section className='white-bg'>
+            <Committees />
+          </section>
+          <section className='darkgray-bg black-text'>
+            <ExecutiveBoard />
+          </section>
+          <section className='lightgray-bg'>
+            <Members />
+          </section>
       </div>
     );
   }
