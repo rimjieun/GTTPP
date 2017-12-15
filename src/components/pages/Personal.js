@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { AcademicServices, CampusResources, CareTeam, Compliance, SportsMedicine, SportsPsychology, Topics } from './../subcomponents/Personal';
 
 class Personal extends Component {
   constructor() {
@@ -12,16 +13,28 @@ class Personal extends Component {
   render() {
     return (
       <div>
-        This is the Personal Development page.
-        <div className='alumni'>
-          <AlumniBanner />
-          <section className='white-bg black-text'>
-            <LWC />
-          </section>
-          <section className='yellow-bg black-text'>
-            <YLWC />
-          </section>
-        </div>
+        <section className='yellow-bg black-text'>
+          <Topics />
+        </section>
+        <section className='darkgray-bg white-text'>
+          <CampusResources />
+        </section>
+        <section className='lightgray-bg black-text'>
+          <SportsPsychology />
+        </section>
+        <section className='white-bg black-text'>
+          <CareTeam />
+        </section>
+        <section className='black-bg white-text'>
+          <SportsMedicine />
+        </section>
+        <section className='white-bg black-text'>
+          <AcademicServices />
+        </section>
+        <section className='darkgray-bg white-text'>
+          <Compliance />
+        </section>
+          
       </div>
     );
   }
