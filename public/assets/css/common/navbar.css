@@ -2,16 +2,21 @@
 nav {
   background-color: transparent;
   background: #262626;
+  height: auto;
 }
 
 
 /*Logo*/
+nav .brand-logo {
+  position: relative;
+}
+
 nav a.brand-logo {
   margin-top: 8px;
 }
 
 nav img.brand-logo {
-  width: 80px;
+  width: 175px;
   height: auto;
 }
 
@@ -32,7 +37,7 @@ ul li a:hover {
 }
 
 ul#nav-mobile li a {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
 
