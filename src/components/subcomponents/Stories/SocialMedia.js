@@ -9,9 +9,15 @@ const styles = {
 };
 
 const SocialMedia = props => (
-    <ColLayout title='FOLLOW US'>
-        <p className="header center">Our Social Media</p>
-    </ColLayout>
+    <div>
+        <ColLayout title='FOLLOW US'>
+        </ColLayout>
+        <div>
+            <div className="mr-space" id="mr-space_ramblinwreck_com-georgiatechfb-media_wall" data-space-id="georgia-tech/ramblinwreck_com-georgiatechfb-media_wall"></div>
+        </div>
+        
+    </div>
+    
 );
 
 export default SocialMedia;
