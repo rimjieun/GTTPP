@@ -119,3 +119,25 @@ span.italic {
 .carousel {
     height: 575px !important;
 }
+
+.value-div {
+  position: relative;
+}
+
+.value-div h1{
+  position: absolute;
+}
+
+.second-value{
+  top: 400px;
+  right: 0;
+}
+
+.third-value {
+  right: 0;
+}
+
+.fourth-value {
+  top: 400px;
+  left: 0;
+}
