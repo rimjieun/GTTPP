@@ -16,7 +16,7 @@ class Stories extends Component {
     return (
       <div>
         <div className=''>
-          <section className='yellow-bg black-text'>
+          <section className='gold-bg black-text'>
             <PosterPhotos />
           </section>
           <section className='lightgray-bg black-text'>

@@ -17,7 +17,7 @@ class Alumni extends Component {
         <section className='white-bg black-text'>
           <LWC />
         </section>
-        <section className='yellow-bg black-text'>
+        <section className='gold-bg black-text'>
           <YLWC />
         </section>
       </div>

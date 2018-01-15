@@ -15,11 +15,11 @@ class Community extends Component {
       <div>
         <section className='white-bg black-text'>
           <About />
-        </section>          
+        </section>
         <section className='darkgray-bg white-text'>
           <JWOB />
         </section>
-        <section className='yellow-bg black-text'>
+        <section className='gold-bg black-text'>
           <ServiceCup />
         </section>
         <section className='lightgray-bg black-text'>
