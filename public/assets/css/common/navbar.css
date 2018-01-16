@@ -33,7 +33,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #eeb211;
+  color: #b39454;
 }
 
 ul#nav-mobile li a {
@@ -53,7 +53,7 @@ ul#development {
 
 ul#development li a {
   font-size: 12px;
-  color: #eeb211;
+  color: #b39454;
 }
 
 ul#development li a:hover {

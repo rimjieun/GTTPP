@@ -1,13 +1,17 @@
 $(document).ready(function () {
 
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
+  // var heightSlider = $('nav').height();
 
-    function nextSlide() {
-      $('.carousel').carousel('next');
-    }
-    
-    var carouselInterval = setInterval(nextSlide, 6000);
-    
+  // $('main').css({ paddingTop: heightSlider });
+
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+  function nextSlide() {
+    $('.carousel').carousel('next');
+  }
+
+  var carouselInterval = setInterval(nextSlide, 8000);
+
 
 
 });
