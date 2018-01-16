@@ -1,23 +1,30 @@
 /*NAVBAR*/
 nav {
   background-color: transparent;
-  background: #262626;
+  background: #ffffff;
   height: auto;
 }
+
 
 
 /*Logo*/
 nav .brand-logo {
   position: relative;
+  margin: 8px 0 0 0;
+}
+
+.nav-wrapper {
+  height: 57px !important;
 }
 
 nav a.brand-logo {
-  margin-top: 8px;
+  height: 57px;
 }
 
 nav img.brand-logo {
-  width: 175px;
+  width: 600px;
   height: auto;
+  margin: 0;
 }
 
 
@@ -29,7 +36,7 @@ ul li a {
   -ms-transition:     color 0.3s;
   -o-transition:      color 0.3s;
   transition:         color 0.3s;
-  color: #e5e5e5;
+  color: #262626;
 }
 
 ul li a:hover {
@@ -45,6 +52,10 @@ ul#nav-mobile li a:hover {
   background: none;
 }
 
+ul#nav-mobile li a.active {
+  background-color: rgba(0,0,0,0.1);
+}
+
 /*Dropdown*/
 i.right {
   margin: 0 !important;
@@ -52,7 +63,7 @@ i.right {
 
 ul#career {
   margin-top: 64px;
-  background: #262626;
+  background: #ffffff;
 }
 
 ul#career li a {
