@@ -7,10 +7,10 @@ const Navbar = props => (
     <div className="navbar-fixed">
       <nav>
         <div className="nav-wrapper">
-          <Link to="/" className="brand-logo center">
+          <Link to="/" className="brand-logo">
             <img className="brand-logo" alt="Brand" src="./assets/images/logos/gttpp4.png" />
           </Link>
-            <ul id="nav-mobile" className="right-algin hide-on-med-and-down">
+            <ul id="nav-mobile" className="hide-on-med-and-down">
               <li><Link to="/">HOME</Link></li>
               <li><Link to="/alumni">ALUMNI</Link></li>
               <li><Link to="/career-development" className="dropdown-button" data-activates="career">CAREER DEVELOPMENT<i className="material-icons right">arrow_drop_down</i></Link></li>
