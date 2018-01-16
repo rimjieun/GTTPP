@@ -46,16 +46,20 @@ ul#nav-mobile li a:hover {
 }
 
 /*Dropdown*/
-ul#development {
+i.right {
+  margin: 0 !important;
+}
+
+ul#career {
   margin-top: 64px;
   background: #262626;
 }
 
-ul#development li a {
+ul#career li a {
   font-size: 12px;
   color: #b39454;
 }
 
-ul#development li a:hover {
+ul#career li a:hover {
   color: #262626;
 }

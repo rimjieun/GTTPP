@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Main from './../components/Main';
-import { Home, Alumni, BusinessCard, Career, Community, Events, GetInvolved, Leadership, Nutrition, Personal, Stories, FifthStreet, FirstRound } from './../components/pages';
+import { Home, Alumni, BusinessCard, Career, Community, GetInvolved, Leadership, Nutrition, Personal, Stories, FifthStreet, FirstRound } from './../components/pages';
 
 const routes = (
   <Router>
@@ -17,7 +17,6 @@ const routes = (
       <Route path='/personal-development' component={Personal} />
       <Route path='/sports-nutrition' component={Nutrition} />
       <Route path='/our-stories' component={Stories} />
-      <Route path='/events' component={Events} />
       <Route path='/get-involved' component={GetInvolved} />
     </Main>
   </Router>
