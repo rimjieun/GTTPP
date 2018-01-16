@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = props => (
   <header>
     <div className="navbar-fixed">
       <nav>
-        <div className="container-90 nav-wrapper">
-          <div className="left">
-            <Link to="/" className="brand-logo">
-              <img className="brand-logo" alt="Brand" src="./assets/images/logos/gt-white-goldoutline.png" />
-            </Link>
-          </div>
+        <div className="nav-wrapper">
+          <Link to="/" className="brand-logo center">
+            <img className="brand-logo" alt="Brand" src="./assets/images/logos/gttpp4.png" />
+          </Link>
             <ul id="nav-mobile" className="right-algin hide-on-med-and-down">
               <li><Link to="/">HOME</Link></li>
               <li><Link to="/alumni">ALUMNI</Link></li>
