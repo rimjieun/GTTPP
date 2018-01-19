@@ -18,6 +18,7 @@ nav .brand-logo {
   height: 57px !important;
 }
 
+
 nav a.brand-logo {
   height: 57px;
 }
@@ -62,16 +63,20 @@ i.right {
   margin: 0 !important;
 }
 
-ul#career {
+ul#career, ul#leadership, ul#community{
   margin-top: 64px;
   background: #ffffff;
 }
 
-ul#career li a {
+ul#career li a,
+ul#leadership li a,
+ul#community li a {
   font-size: 12px;
   color: #b39454;
 }
 
-ul#career li a:hover {
+ul#career li a:hover,
+ul#leadership li a:hover,
+ul#community li a:hover {
   color: #262626;
 }

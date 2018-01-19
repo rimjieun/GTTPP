@@ -14,17 +14,26 @@ const Navbar = props => (
               <li><Link to="/">HOME</Link></li>
               <li><Link to="/alumni">ALUMNI</Link></li>
               <li><Link to="/career-development" className="dropdown-button" data-activates="career">CAREER DEVELOPMENT<i className="material-icons right">arrow_drop_down</i></Link></li>
-              <li><Link to="/leadership-development">LEADERSHIP DEVELOPMENT</Link></li>
+              <li><Link to="/leadership-development" className="dropdown-button" data-activates="leadership">LEADERSHIP DEVELOPMENT<i className="material-icons right">arrow_drop_down</i></Link></li>
               <li><Link to="/personal-development">PERSONAL DEVELOPMENT</Link></li>
-              <li><Link to="/community-outreach">COMMUNITY OUTREACH</Link></li>
+            <li><Link to="/community-outreach" className="dropdown-button" data-activates="community">COMMUNITY OUTREACH<i className="material-icons right">arrow_drop_down</i></Link></li>
               <li><Link to="/sports-nutrition">SPORTS NUTRITION</Link></li>
               <li><Link to="/our-stories">OUR STORIES</Link></li>
               <li><Link to="/get-involved">GET INVOLVED</Link></li>
+            </ul>
+            <ul id="leadership" className="dropdown-content">
+              <li><Link to="/freshman-leadership-academy">Freshman Leadership Academy</Link></li>
+              <li><Link to="/leadership-series">Leadership Series</Link></li>
+              <li><Link to="/student-athlete-advisory-board">Student-Athlete Advisory Board</Link></li>
             </ul>
             <ul id="career" className="dropdown-content">
               <li><Link to="/fifth-street-bridge-program">5th Street Bridge Program</Link></li>
               <li><Link to="/first-round-draft-pick">1st Round Draft Pick</Link></li>
               <li><Link to="/business-cards">Business Card Request</Link></li>
+            </ul>
+            <ul id="community" className="dropdown-content">
+              <li><Link to="/jackets-without-borders">JWOB</Link></li>
+              <li><Link to="/community-service-cup">Community Service Cup</Link></li>
             </ul>
         </div>
       </nav>
