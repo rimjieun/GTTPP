@@ -12,6 +12,7 @@ $(document).ready(function () {
 
   var carouselInterval = setInterval(nextSlide, 8000);
 
+  $(".button-collapse").sideNav()
 
 
 });
