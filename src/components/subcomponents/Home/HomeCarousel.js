@@ -20,7 +20,6 @@ class HomeCarousel extends Component {
     return(
       <Carousel options={{
         fullWidth: true,
-        duration: 400,
         indicators: true
         }}>
         <div>

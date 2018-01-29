@@ -2,10 +2,9 @@
 nav {
   background-color: transparent;
   background: #ffffff;
-  height: auto;
+  height: 100%;
   text-align: center !important;
 }
-
 
 
 /*Logo*/
@@ -15,7 +14,7 @@ nav .brand-logo {
 }
 
 .nav-wrapper {
-  height: 57px !important;
+  height: auto;
 }
 
 
@@ -29,6 +28,10 @@ nav img.brand-logo {
   margin: 0;
 }
 
+.navbar-ul{
+  width: auto !important;
+  margin: 0 auto;
+}
 
 /*Nav Buttons*/
 ul li a {
@@ -79,4 +82,21 @@ ul#career li a:hover,
 ul#leadership li a:hover,
 ul#community li a:hover {
   color: #262626;
+}
+
+/*Side nav*/
+nav .button-collapse i {
+  color: #262626;
+  font-size: xx-large;
+  margin-top: 50%;
+}
+
+.side-nav {
+  width: 250px;
+}
+
+.side-nav-img {
+  width: 100px;
+  height: 70px;
+  margin-top: 10px;
 }
