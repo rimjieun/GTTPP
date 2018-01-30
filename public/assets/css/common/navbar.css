@@ -6,26 +6,24 @@ nav {
   text-align: center !important;
 }
 
-
 /*Logo*/
-nav .brand-logo {
-  position: relative;
-  display: inline;
+
+.brand-logo {
   width: 600px;
   margin: 8px 0 0 0;
 }
 
 .gt-nav-logo{
   width: 100%;
-  text-align: center;
   line-height: 20px;
 }
 
 /*Nav Buttons*/
 nav ul {
   margin: 0 auto;
-  text-align: center !important;
+  text-align: center;
 }
+
 
 ul li a {
   text-align: center;
