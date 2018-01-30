@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   centered: {
-    width: '50%',
+    width: '60%',
     margin: '0 auto'
   }
 };
