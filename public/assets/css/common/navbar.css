@@ -2,7 +2,7 @@
 nav {
   background-color: transparent;
   background: #ffffff;
-  height: 100%;
+  height: auto;
   text-align: center !important;
 }
 
@@ -10,30 +10,23 @@ nav {
 /*Logo*/
 nav .brand-logo {
   position: relative;
+  display: inline;
+  width: 600px;
   margin: 8px 0 0 0;
 }
 
-.nav-wrapper {
-  height: auto;
-}
-
-
-nav a.brand-logo {
-  height: 57px;
-}
-
-nav img.brand-logo {
-  width: 600px;
-  height: auto;
-  margin: 0;
-}
-
-.navbar-ul{
-  width: auto !important;
-  margin: 0 auto;
+.gt-nav-logo{
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
 }
 
 /*Nav Buttons*/
+nav ul {
+  margin: 0 auto;
+  text-align: center !important;
+}
+
 ul li a {
   text-align: center;
   -webkit-transition: color 0.3s;
@@ -48,16 +41,16 @@ ul li a:hover {
   color: #b39454;
 }
 
-ul#nav-mobile li a {
+.nav-wrapper ul li a {
   font-size: 14px;
   font-weight: bold;
 }
 
-ul#nav-mobile li a:hover {
+.nav-wrapper ul li a:hover {
   background: none;
 }
 
-ul#nav-mobile li a.active {
+.nav-wrapper ul li a.active {
   background-color: rgba(0,0,0,0.1);
 }
 
@@ -66,21 +59,17 @@ i.right {
   margin: 0 !important;
 }
 
-ul#career, ul#leadership, ul#community{
+.dropdown-content{
   margin-top: 64px;
   background: #ffffff;
 }
 
-ul#career li a,
-ul#leadership li a,
-ul#community li a {
+.dropdown-content li a {
   font-size: 12px;
   color: #b39454;
 }
 
-ul#career li a:hover,
-ul#leadership li a:hover,
-ul#community li a:hover {
+.dropdown-content li a:hover {
   color: #262626;
 }
 

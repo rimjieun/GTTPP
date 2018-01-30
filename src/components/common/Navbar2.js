@@ -14,14 +14,17 @@ class Navbar2 extends Component {
     render() {
         return (
             <div>
-                <Navbar brand={
-                    <img className="brand-logo" alt="Brand" src="./assets/images/logos/gttpp4.png" />
-                }>
+                <Navbar>
+
+                    <NavItem className="gt-nav-logo" href='/'>
+                        <img className="brand-logo" alt="Brand" src="./assets/images/logos/gttpp4.png" />
+                    </NavItem>
+
                     <NavItem href='/'>HOME</NavItem>
                     <NavItem href='/alumni'>ALUMNI</NavItem>
 
                     <Dropdown trigger={
-                        <NavItem href="/career-development" className="career" data-activates="career">
+                        <NavItem href="/career-development" className="career">
                             CAREER DEVELOPMENT
                             <i className="material-icons right">arrow_drop_down</i>
                         </NavItem>
@@ -32,7 +35,7 @@ class Navbar2 extends Component {
                     </Dropdown>
 
                     <Dropdown trigger={
-                        <NavItem href="/leadership-development" className="dropdown-button" data-activates="leadership">
+                        <NavItem href="/leadership-development" className="dropdown-button">
                             LEADERSHIP DEVELOPMENT
                             <i className="material-icons right">arrow_drop_down</i>
                         </NavItem>
@@ -45,7 +48,7 @@ class Navbar2 extends Component {
                     <NavItem href="/personal-development">PERSONAL DEVELOPMENT</NavItem>
 
                     <Dropdown trigger={
-                        <NavItem href="/community-outreach" className="dropdown-button" data-activates="community">
+                        <NavItem href="/community-outreach" className="dropdown-button">
                             COMMUNITY OUTREACH
                             <i className="material-icons right">arrow_drop_down</i>
                         </NavItem>
