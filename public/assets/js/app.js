@@ -12,4 +12,12 @@ $(document).ready(function () {
 
   var carouselInterval = setInterval(nextSlide, 8000);
 
+  $(".carousel-fwd").on("click", function () {
+    $('.carousel').carousel('next');
+  });
+
+  $(".carousel-prev").on("click", function () {
+    $('.carousel').carousel('prev');
+  });
+
 });

@@ -4,7 +4,7 @@ import { HomeCarousel, About, Mission, Staff, Stories, TwitterFeed, Values, Even
 class Home extends Component {
   constructor() {
     super();
-    
+
   }
 
   componentDidMount() {
@@ -17,16 +17,16 @@ class Home extends Component {
     return (
       <div>
         <HomeCarousel />
-        <section className='white-bg black-text'>
+        <section className='lightgray-bg black-text about-section'>
           <About/>
         </section>
-        <section className='black-bg white-text'>
-          <Events/>
-        </section>
-        <section className='lightgray-bg black-text'>
+        <section className='gold-bg black-text'>
           <Stories/>
         </section>
         <section className='white-bg black-text'>
+          <Events />
+        </section>
+        <section className='black-bg white-text'>
           <Staff/>
         </section>
         <TwitterFeed />

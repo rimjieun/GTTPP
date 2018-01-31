@@ -13,7 +13,7 @@ class Navbar2 extends Component {
 
     render() {
         return (
-            <div>
+            <div className="nav-div">
                 <div className="navbar-logo center">
                     <img className="brand-logo" alt="Brand" src="./assets/images/logos/gttpp4.png" />
                 </div>
