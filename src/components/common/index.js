@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import NavbarComponent from './Navbar';
 import Footer from './Footer';
 import Banner from './Banner';
 import TextLeftImgRight from './TextLeftImgRight';
@@ -9,7 +9,7 @@ import RowLayout from './RowLayout';
 import ColLayout from './ColLayout';
 
 module.exports = {
-  Navbar,
+  NavbarComponent,
   Footer,
   Banner,
   TextLeftImgRight,

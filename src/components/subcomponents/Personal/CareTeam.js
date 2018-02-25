@@ -9,7 +9,7 @@ const styles = {
 };
 
 const CareTeam = props => (
-    <ColLayout title='COMPLIANCE'>
+    <ColLayout title='CARE TEAM'>
         <p className="header center">CARE Team information</p>
     </ColLayout>
 );

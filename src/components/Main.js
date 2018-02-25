@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './common/Navbar';
+import Navbar2 from './common/Navbar2';
 import Footer from './common/Footer';
 
 const Main = props => (
   <div id='main-section'>
-    <Navbar />
+    <Navbar2 />
     <main>
       {props.children}
     </main>

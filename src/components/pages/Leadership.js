@@ -20,7 +20,7 @@ class Leadership extends Component {
           <section className='white-bg black-text'>
             <FreshmanLeadership />
           </section>
-          <section className='yellow-bg'>
+          <section className='gold-bg'>
             <LeadershipSeries />
           </section>
           <section className='black-bg white-text'>

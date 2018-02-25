@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
 }
 
+.container-70 {
+  width: 70%;
+}
+
 .section-container {
   align-items: flex-start;
 }
@@ -84,8 +88,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #262626;
 }
 
-.yellow-bg {
-  background-color: #eeb211;
+.gold-bg {
+  background-color: #b39454;
 }
 /*Text Styles*/
 .white-text {
@@ -104,8 +108,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #262626;
 }
 
-.yellow-text {
-  color: #eeb211;
+.gold-text {
+  color: #b39454;
 }
 
 span.bold {

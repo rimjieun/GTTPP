@@ -15,7 +15,7 @@ class Nutrition extends Component {
       <div>
         <div className='alumni'>
           <NutritionMission />
-          <section className='yellow-bg black-text'>
+          <section className='gold-bg black-text'>
             <NutritionCenter />
           </section>
           <section className='lightgray-bg'>

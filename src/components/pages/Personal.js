@@ -13,7 +13,7 @@ class Personal extends Component {
   render() {
     return (
       <div>
-        <section className='yellow-bg black-text'>
+        <section className='gold-bg black-text'>
           <Topics />
         </section>
         <section className='darkgray-bg white-text'>
@@ -34,7 +34,7 @@ class Personal extends Component {
         <section className='darkgray-bg white-text'>
           <Compliance />
         </section>
-          
+
       </div>
     );
   }
