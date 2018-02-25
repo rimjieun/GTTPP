@@ -10,7 +10,7 @@ class HomeCarousel extends Component {
 
   pageScroll() {
     window.scroll({
-      top: 635,
+      top: 700,
       left: 0,
       behavior: 'smooth'
     });

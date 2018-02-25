@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.container-98 {
+  width: 98%;
+}
+
 .container-90 {
   width: 90%;
 }
@@ -144,4 +148,36 @@ span.italic {
 .fourth-value {
   top: 400px;
   left: 0;
+}
+
+
+.freshman-carousel {
+  overflow: visible;
+  height: 100% !important;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.freshman-carousel img {
+  height: 100% !important;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: -90%;
+}
+
+.carousel-controls:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-controls i {
+  color: #f5f5f5;
+  font-size: 55pt;
+  font-weight: 300;
+  opacity: 0.85;
+}
+
+.carousel-fwd {
+  right: 5px;
 }

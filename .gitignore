@@ -58,3 +58,5 @@ typings/
 .env
 
 .history
+client_secret.json
+.vscode
