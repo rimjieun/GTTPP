@@ -59,3 +59,4 @@ typings/
 
 .history
 client_secret.json
+.vscode
