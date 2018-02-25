@@ -9,7 +9,7 @@ const styles = {
 };
 
 const Staff = props => (
-  <RowLayout title='OUR STAFF'>
+  <RowLayout title='Our Staff'>
     <figure>
       <img style={styles.image} src='./assets/images/staff/Akin_Joeleen.jpg' />
       <figcaption>Joleen Akin</figcaption>

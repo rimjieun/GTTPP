@@ -17,24 +17,12 @@ class Leadership extends Component {
         <section className='lightgray-bg black-text'>
           <LeadershipMission />
         </section>
-          <section className='white-bg black-text'>
-            <FreshmanLeadership />
-          </section>
-          <section className='gold-bg'>
-            <LeadershipSeries />
-          </section>
-          <section className='black-bg white-text'>
-            <AdvisoryBoard />
-          </section>
-          <section className='white-bg'>
-            <Committees />
-          </section>
-          <section className='darkgray-bg black-text'>
-            <ExecutiveBoard />
-          </section>
-          <section className='lightgray-bg'>
-            <Members />
-          </section>
+        <section className='gold-bg black-text'>
+          <FreshmanLeadership />
+        </section>
+        <section className='white-bg'>
+          <LeadershipSeries />
+        </section>
       </div>
     );
   }

@@ -9,7 +9,7 @@ const styles = {
 };
 
 const Members = props => (
-    <ColLayout title='COMMITTEES'>
+    <ColLayout title='COMMITTEE MEMBERS'>
         <p className="header center">List Members</p>
     </ColLayout>
 );
