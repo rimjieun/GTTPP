@@ -15,6 +15,8 @@ import Stories from './Stories';
 import FifthStreet from './FifthStreet';
 import FirstRound from './FirstRound';
 import ServiceCup from './ServiceCup';
+import RyanTestPage from './RyanTestPage';
+import JieunTestPage from './JieunTestPage';
 
 
 
@@ -35,5 +37,7 @@ module.exports = {
   Stories,
   FifthStreet,
   FirstRound,
-  ServiceCup
+  ServiceCup,
+  RyanTestPage,
+  JieunTestPage,
 };
