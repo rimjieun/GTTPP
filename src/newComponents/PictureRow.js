@@ -3,10 +3,10 @@ import {Row, Col} from 'react-materialize';
 
 const styles = {
   image: {
-    width: 100%,
-    height: auto
+    width: '100%',
+    height: 'auto'
   }
-}
+};
 
 const PictureRow = props => (
   <Col s={3}>
