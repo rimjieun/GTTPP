@@ -1,17 +1,25 @@
-import React from 'react';
-import {Row, Col} from 'react-materialize';
+import React, { Component } from 'react';
+import { Col } from 'react-materialize';
 
 const styles = {
+  colStyle: {
+    flex: '1',
+    display: 'flex',
+    flexDirection: 'column'
+  },
   image: {
-    width: 100%,
-    height: auto
+    width: '100%',
+    height: 'auto',
+    filter: 'grayscale(85%)'
   }
-}
+};
+
 
 const PictureRow = props => (
-  <Col s={3}>
+  <div style={styles.colStyle}>
     <img src={props.imgPath} style={styles.image} />
-  </Col>
+    <div>{props.memberName}</div>
+  </div>
 );
 
 export default PictureRow;
