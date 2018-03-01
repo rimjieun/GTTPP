@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import RoundButtonWithText from '../../newComponents/RoundButtonWithText';
+import SquareButton from '../../newComponents/SquareButton';
 
 class RyanTestPage extends Component {
   constructor() {
@@ -12,9 +14,11 @@ class RyanTestPage extends Component {
 
   render () {
     return (
-      <div>
+      <section>
         <h1>Hi Ryan!</h1>
-      </div>
+        <RoundButtonWithText buttonText="Testing this component" url="https://www.google.com" backgroundColor="blue"/>
+        <SquareButton  backgroundColor="blue" textColor="white" url="/">Testing</SquareButton>
+      </section>
     )}
   };
 
