@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Main from './../components/Main';
-import { Home, AdvisoryBoard, Alumni, BusinessCard, Career, Community, FreshmanLeadership, GetInvolved, JWOB, Leadership, LeadershipSeries, Nutrition, Personal, Stories, FifthStreet, FirstRound, ServiceCup } from './../components/pages';
+import { Home, AdvisoryBoard, Alumni, BusinessCard, Career, Community, FreshmanLeadership, GetInvolved, JWOB, Leadership, LeadershipSeries, Nutrition, Personal, Stories, FifthStreet, FirstRound, ServiceCup, RyanTestPage, JieunTestPage } from './../components/pages';
 import CommunityService from '../components/subcomponents/Community/CommunityService';
 
 const routes = (
@@ -30,6 +30,9 @@ const routes = (
       <Route path='/sports-nutrition' component={Nutrition} />
       <Route path='/our-stories' component={Stories} />
       <Route path='/get-involved' component={GetInvolved} />
+
+      <Route path='/ryan' component={RyanTestPage} />
+      <Route path='/jieun' component={JieunTestPage} />
     </Main>
   </Router>
 );
