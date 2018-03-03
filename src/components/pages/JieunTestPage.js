@@ -53,7 +53,7 @@ class JieunTestPage extends Component {
             this.state.staff.map(member => <PictureRow key={member.uKey} imgPath={member.imgPath} memberName={member.name} memberPosition={member.position}/>)
           }
         </div>
-        <RoundButtonWithText />
+        <RoundButtonWithText buttonText='Testing Button Text' url='https://google.com' backgroundColor='#cccccc' />
       </div>
     )}
   };
