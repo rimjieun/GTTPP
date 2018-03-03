@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import { Col } from 'react-materialize';
 
+/*
+PROPS TO RECEIVE:
+- imgPath
+- memberName
+- memberPosition
+*/
+
 class PictureRow extends Component {
   constructor(props) {
     super(props)

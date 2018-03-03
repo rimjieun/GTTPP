@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Row } from 'react-materialize';
-import PictureRow from '../../newComponents/PictureRow';
+import React, { Component } from 'react'
+import { Row } from 'react-materialize'
+import PictureRow from '../../newComponents/PictureRow'
+import RoundButtonWithText from '../../newComponents/RoundButtonWithText'
 
 const styles = {
   picParent: {
@@ -52,6 +53,7 @@ class JieunTestPage extends Component {
             this.state.staff.map(member => <PictureRow key={member.uKey} imgPath={member.imgPath} memberName={member.name} memberPosition={member.position}/>)
           }
         </div>
+        <RoundButtonWithText />
       </div>
     )}
   };
