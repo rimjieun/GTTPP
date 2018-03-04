@@ -29,7 +29,7 @@ const SectionHeader = props => (
                     textAlign: 'center',
                     fontSize: '30px',
                     color: `${props.subHeaderColor}`,
-                }}>{props.subheaderText}</h2>
+                }}>{props.subHeaderText}</h2>
             </div>
         </Col>
     </Row>
