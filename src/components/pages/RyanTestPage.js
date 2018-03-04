@@ -6,6 +6,7 @@ import TextAlignRight from '../../newComponents/TextAlignRight';
 import TextAlignLeft from '../../newComponents/TextAlignLeft';
 import TextAlignCenter from '../../newComponents/TextAlignCenter';
 import SectionHeader from '../../newComponents/SectionHeader';
+import AthleteStories from '../../newComponents/AthleteStories';
 
 import { Row, Col } from 'react-materialize';
 
@@ -74,7 +75,24 @@ class RyanTestPage extends Component {
         subHeader: 'More Business Cards',
         subHeaderColor: 'red',
         hrColor: 'green',
-      }
+      },
+      athletes: [
+        {
+          title: 'Akin Joeleen',
+          summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/total-person/auto_original/10019102.jpeg'
+        },
+        {
+          title: 'Leah Thomas',
+          summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/total-person/auto_original/10065889.jpeg?1512612369'
+        },
+        {
+          title: 'Sanford Lucius',
+          summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/m-basebl/auto_original/9998953.jpeg?1508353306'
+        }
+      ],
     }
   }
 
@@ -106,6 +124,11 @@ class RyanTestPage extends Component {
           }
         </div>
 
+        <div>
+          {
+            this.state.athletes.map(story => <AthleteStories imgSrc={story.imgPath} storyTitle={story.title} storySummary={story.summary}/>)
+          }
+        </div>
       </section>
     )}
   };
