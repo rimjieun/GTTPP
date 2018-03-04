@@ -2,8 +2,11 @@ import React from 'react';
 import { Row, Col } from 'react-materialize';
 /*
 PROPS TO RECEIVE:
-- header
-- text
+- headerText
+- headerColor
+- subHeaderText
+- subHeaderColor
+- hrColor
 */
 
 
