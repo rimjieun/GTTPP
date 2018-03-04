@@ -7,6 +7,8 @@ import TextAlignLeft from '../../newComponents/TextAlignLeft';
 import TextAlignCenter from '../../newComponents/TextAlignCenter';
 import SectionHeader from '../../newComponents/SectionHeader';
 import AthleteStories from '../../newComponents/AthleteStories';
+import StaffContactHoriz from '../../newComponents/StaffContactHoriz';
+import StaffContactVert from '../../newComponents/StaffContactVert';
 
 import { Row, Col } from 'react-materialize';
 
@@ -25,7 +27,7 @@ class RyanTestPage extends Component {
       staff: [
         {
           uKey: 0,
-          name: 'Akin Joeleen',
+          name: 'Joeleen Akin',
           position: 'Position',
           imgPath: './assets/images/staff/Akin_Joeleen.jpg'
         },
@@ -93,6 +95,16 @@ class RyanTestPage extends Component {
           imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/m-basebl/auto_original/9998953.jpeg?1508353306'
         }
       ],
+      staffContact: {
+        name: 'Joeleen Akin',
+        position: 'Project Cordinator',
+        email: 'joeleen.akin@athletics.gatech.edu',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgPath: './assets/images/staff/Akin_Joeleen.jpg',
+        header: "Staff Contact",
+        headerColor: "black",
+        hrColor: "#545454"
+      }
     }
   }
 
@@ -129,6 +141,18 @@ class RyanTestPage extends Component {
             this.state.athletes.map(story => <AthleteStories imgSrc={story.imgPath} storyTitle={story.title} storySummary={story.summary}/>)
           }
         </div>
+
+        <SectionHeader headerText = {this.state.staffContact.header} headerColor={this.state.staffContact.headerColor} hrColor={this.state.staffContact.hrColor}/>
+
+        <StaffContactHoriz name={this.state.staffContact.name} position={this.state.staffContact.position} email={this.state.staffContact.email} about={this.state.staffContact.about} imgSrc={this.state.staffContact.imgPath}/>
+
+        <Row>
+          <Col s={9}>
+            <h1>Testing</h1>
+          </Col>
+          <StaffContactVert name={this.state.staffContact.name} position={this.state.staffContact.position} email={this.state.staffContact.email} about={this.state.staffContact.about} imgSrc={this.state.staffContact.imgPath}/>
+        </Row>
+
       </section>
     )}
   };

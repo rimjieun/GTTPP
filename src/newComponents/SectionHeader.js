@@ -26,7 +26,7 @@ const SectionHeader = props => (
                 <hr style={{
                     maxWidth: '100px',
                     borderColor: `${props.hrColor}`,
-                    bordeWidth: '3px',
+                    bordeWidth: '3px'
                 }}/>
                 <h2 style={{
                     textAlign: 'center',
