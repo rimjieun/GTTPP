@@ -34,13 +34,13 @@ const StaffContactHoriz = props => (
     margin: '30px auto'
   }}>
     <Row>
-      <Col s={3} className='offset-s2'>
+      <Col s={3} className='offset-s1'>
         <img src={props.imgSrc} style={{
           width: '100%',
           height: 'auto',
         }}/>
       </Col>
-      <Col s={5} className='push-s1'>
+      <Col s={6} className='push-s2'>
         <div>
           <h4>{props.name}</h4>
           <p style={styles.positionStyle}>{props.position}</p>
