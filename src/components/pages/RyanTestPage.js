@@ -7,6 +7,7 @@ import TextAlignLeft from '../../newComponents/TextAlignLeft';
 import TextAlignCenter from '../../newComponents/TextAlignCenter';
 import SectionHeader from '../../newComponents/SectionHeader';
 import AthleteStories from '../../newComponents/AthleteStories';
+import StaffContactHoriz from '../../newComponents/StaffContactHoriz';
 
 import { Row, Col } from 'react-materialize';
 
@@ -93,6 +94,13 @@ class RyanTestPage extends Component {
           imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/m-basebl/auto_original/9998953.jpeg?1508353306'
         }
       ],
+      staffContact: {
+        name: 'Akin Joeleen',
+        position: 'Project Cordinator',
+        email: 'akin.joeleen@athletics.gatech.edu',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgPath: './assets/images/staff/Akin_Joeleen.jpg'
+      }
     }
   }
 
@@ -129,6 +137,9 @@ class RyanTestPage extends Component {
             this.state.athletes.map(story => <AthleteStories imgSrc={story.imgPath} storyTitle={story.title} storySummary={story.summary}/>)
           }
         </div>
+
+        <StaffContactHoriz name={this.state.staffContact.name} position={this.state.staffContact.position} email={this.state.staffContact.email} about={this.state.staffContact.about} imgSrc={this.state.staffContact.imgPath}/>
+
       </section>
     )}
   };
