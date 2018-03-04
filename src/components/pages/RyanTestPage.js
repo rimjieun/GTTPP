@@ -89,7 +89,7 @@ class RyanTestPage extends Component {
         <RoundButtonWithText buttonText='Testing this component' url='https://www.google.com' backgroundColor='blue'/>
         <SquareButton  backgroundColor='blue' textColor='white' url='/'>Testing</SquareButton>
 
-        <SectionHeader header = {this.state.secHeader.header} subheader={this.state.secHeader.subHeader} headerColor={this.state.secHeader.headerColor} subHeaderColor={this.state.secHeader.subHeaderColor} hrColor={this.state.secHeader.hrColor}/>
+        <SectionHeader headerText = {this.state.secHeader.header} subheaderText={this.state.secHeader.subHeader} headerColor={this.state.secHeader.headerColor} subHeaderColor={this.state.secHeader.subHeaderColor} hrColor={this.state.secHeader.hrColor}/>
 
         <Row>
           <Col s={5}>

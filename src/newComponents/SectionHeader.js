@@ -19,7 +19,7 @@ const SectionHeader = props => (
                     textTransform: 'uppercase',
                     color: `${props.headerColor}`,
 
-                }}>{props.header}</h2>
+                }}>{props.headerText}</h2>
                 <hr style={{
                     maxWidth: '100px',
                     borderColor: `${props.hrColor}`,
@@ -29,7 +29,7 @@ const SectionHeader = props => (
                     textAlign: 'center',
                     fontSize: '30px',
                     color: `${props.subHeaderColor}`,
-                }}>{props.subheader}</h2>
+                }}>{props.subheaderText}</h2>
             </div>
         </Col>
     </Row>
