@@ -5,6 +5,7 @@ import PictureRow from '../../newComponents/PictureRow';
 import TextAlignRight from '../../newComponents/TextAlignRight';
 import TextAlignLeft from '../../newComponents/TextAlignLeft';
 import TextAlignCenter from '../../newComponents/TextAlignCenter';
+import SectionHeader from '../../newComponents/SectionHeader';
 
 import { Row, Col } from 'react-materialize';
 
@@ -66,6 +67,13 @@ class RyanTestPage extends Component {
       alignedText: {
         header: 'This is the header x 2',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      },
+      secHeader: {
+        header: 'Business Cards',
+        headerColor: 'blue',
+        subHeader: 'More Business Cards',
+        subHeaderColor: 'red',
+        hrColor: 'green',
       }
     }
   }
@@ -76,17 +84,19 @@ class RyanTestPage extends Component {
 
   render () {
     return (
-      <section className="container-90">
+      <section className='container-90'>
         <h1>Hi Ryan!</h1>
-        <RoundButtonWithText buttonText="Testing this component" url="https://www.google.com" backgroundColor="blue"/>
-        <SquareButton  backgroundColor="blue" textColor="white" url="/">Testing</SquareButton>
+        <RoundButtonWithText buttonText='Testing this component' url='https://www.google.com' backgroundColor='blue'/>
+        <SquareButton  backgroundColor='blue' textColor='white' url='/'>Testing</SquareButton>
+
+        <SectionHeader header = {this.state.secHeader.header} subheader={this.state.secHeader.subHeader} headerColor={this.state.secHeader.headerColor} subHeaderColor={this.state.secHeader.subHeaderColor} hrColor={this.state.secHeader.hrColor}/>
 
         <Row>
           <Col s={5}>
-            <img src="https://static1.squarespace.com/static/586ae5e4725e250e1db6a07a/t/586b0f95ff7c50bb14e6422e/1483411382624/Blue+Skies.png?format=1500w" width="100%" height="200px"/>
+            <img src='https://static1.squarespace.com/static/586ae5e4725e250e1db6a07a/t/586b0f95ff7c50bb14e6422e/1483411382624/Blue+Skies.png?format=1500w' width='100%' height='200px'/>
           </Col>
           <Col s={7}>
-            <TextAlignLeft header={this.state.alignedText.header} text={this.state.alignedText.text} />
+            <TextAlignLeft header={this.state.alignedText.header} text={this.state.alignedText.text}/>
           </Col>
         </Row>
 
