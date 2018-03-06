@@ -34,7 +34,7 @@ const StaffContactVert = props => (
     margin: '30px auto'
   }}>
     <Row>
-      <Col s={3} className='center'>
+      <Col s={2} className='center'>
         <img src={props.imgSrc} style={{
           width: '100%',
           height: 'auto',
