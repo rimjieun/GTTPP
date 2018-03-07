@@ -34,7 +34,7 @@ const StaffContactHoriz = props => (
     margin: '30px auto'
   }}>
     <Row>
-      <Col s={4} className='offset-s1'>
+      <Col s={2} className='offset-s1'>
         <img src={props.imgSrc} style={{
           width: '100%',
           height: 'auto',
