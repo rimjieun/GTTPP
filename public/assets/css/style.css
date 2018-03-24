@@ -181,3 +181,8 @@ span.italic {
 .carousel-fwd {
   right: 5px;
 }
+
+button:focus {
+  outline: none;
+  background-color: transparent;
+}
