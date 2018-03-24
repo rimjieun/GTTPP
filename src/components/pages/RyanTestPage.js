@@ -9,6 +9,7 @@ import SectionHeader from '../../newComponents/SectionHeader';
 import AthleteStories from '../../newComponents/AthleteStories';
 import StaffContactHoriz from '../../newComponents/StaffContactHoriz';
 import StaffContactVert from '../../newComponents/StaffContactVert';
+import IconWithText from '../../newComponents/IconWithText';
 
 import { Row, Col } from 'react-materialize';
 
@@ -80,16 +81,19 @@ class RyanTestPage extends Component {
       },
       athletes: [
         {
+          uKey: 0,
           title: 'Akin Joeleen',
           summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
           imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/total-person/auto_original/10019102.jpeg'
         },
         {
+          uKey: 1,
           title: 'Leah Thomas',
           summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
           imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/total-person/auto_original/10065889.jpeg?1512612369'
         },
         {
+          uKey: 2,
           title: 'Sanford Lucius',
           summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
           imgPath: 'http://grfx.cstv.com/photos/schools/geot/sports/m-basebl/auto_original/9998953.jpeg?1508353306'
@@ -104,8 +108,51 @@ class RyanTestPage extends Component {
         header: "Staff Contact",
         headerColor: "black",
         hrColor: "#545454"
-      }
+      },
+      icons: [
+        {
+          uKey: 0,
+          icon: 'settings',
+          iconColor: 'pink',
+          iconUrl: '',
+          caption: 'Test 0',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+          uKey: 1,
+          icon: 'flash_on',
+          iconColor: 'black',
+          iconUrl: '',
+          caption: 'Test 1',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+          uKey: 2,
+          icon: 'group',
+          iconColor: 'blue',
+          iconUrl: '',
+          caption: 'Test 2',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+          uKey: 3,
+          icon: 'settings',
+          iconColor: 'green',
+          iconUrl: '',
+          caption: 'Test 3',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+          uKey: 4,
+          icon: 'settings',
+          iconColor: 'green',
+          iconUrl: '',
+          caption: 'Test 3',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        }
+      ]
     }
+
   }
 
   componentDidMount() {
@@ -138,7 +185,7 @@ class RyanTestPage extends Component {
 
         <div>
           {
-            this.state.athletes.map(story => <AthleteStories imgSrc={story.imgPath} storyTitle={story.title} storySummary={story.summary}/>)
+            this.state.athletes.map(story => <AthleteStories key={story.uKey} imgSrc={story.imgPath} storyTitle={story.title} storySummary={story.summary}/>)
           }
         </div>
 
@@ -153,6 +200,14 @@ class RyanTestPage extends Component {
           <StaffContactVert name={this.state.staffContact.name} position={this.state.staffContact.position} email={this.state.staffContact.email} about={this.state.staffContact.about} imgSrc={this.state.staffContact.imgPath}/>
         </Row>
 
+        <div>
+        <Row>
+          {
+            this.state.icons.map(icon => <IconWithText key={icon.uKey} icon={icon.icon} iconColor={icon.iconColor} text={icon.text} caption={icon.caption}/>)
+          }
+          </Row>
+
+        </div>
       </section>
     )}
   };
