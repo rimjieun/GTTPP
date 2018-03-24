@@ -10,6 +10,7 @@ import AthleteStories from '../../newComponents/AthleteStories';
 import StaffContactHoriz from '../../newComponents/StaffContactHoriz';
 import StaffContactVert from '../../newComponents/StaffContactVert';
 import IconWithText from '../../newComponents/IconWithText';
+import ImageGallery from '../../newComponents/ImageGallery';
 
 import { Row, Col } from 'react-materialize';
 
@@ -150,7 +151,13 @@ class RyanTestPage extends Component {
           caption: 'Test 3',
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         }
-      ]
+      ],
+      imageGalleryPhotos: [
+          { src: './assets/images/freshman-academy/freshman-academy-4.JPG', width: 3, height: 3 },
+          { src: './assets/images/freshman-academy/freshman-academy-3.JPG', width: 2, height: 1 },
+          { src: './assets/images/freshman-academy/freshman-academy-2.JPG', width: 3, height: 4 },
+          { src: './assets/images/freshman-academy/freshman-academy-1.JPG', width: 4, height: 3 }
+      ],
     }
 
   }
@@ -201,13 +208,14 @@ class RyanTestPage extends Component {
         </Row>
 
         <div>
-        <Row>
-          {
-            this.state.icons.map(icon => <IconWithText key={icon.uKey} icon={icon.icon} iconColor={icon.iconColor} text={icon.text} caption={icon.caption}/>)
-          }
+          <Row>
+            {
+              this.state.icons.map(icon => <IconWithText key={icon.uKey} icon={icon.icon} iconColor={icon.iconColor} text={icon.text} caption={icon.caption}/>)
+            }
           </Row>
-
         </div>
+
+        <ImageGallery photos={this.state.imageGalleryPhotos}/>
       </section>
     )}
   };
