@@ -9,6 +9,8 @@ import SectionHeader from '../../newComponents/SectionHeader'
 import AthleteStories from '../../newComponents/AthleteStories'
 import StaffContactVert from '../../newComponents/StaffContactVert'
 import StaffContactHoriz from '../../newComponents/StaffContactHoriz'
+import IconWithText from '../../newComponents/IconWithText'
+import ImageGallery from '../../newComponents/ImageGallery'
 
 const styles = {
   picParent: {
@@ -74,7 +76,45 @@ class JieunTestPage extends Component {
       alignedText: {
         header: 'This is the header',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      }
+      },
+      icons: [
+        {
+          uKey: 0,
+          icon: 'settings',
+          name: 'Icon 1',
+          url: 'https://www.google.com',
+          color: 'red',
+          caption: 'Hello',
+          text: 'Test'
+        },
+        {
+          uKey: 1,
+          icon: 'flash_on',
+          name: 'Icon 2',
+          url: 'https://www.google.com',
+          color: 'yellow',
+          caption: 'Goodbye',
+          text: 'Test'
+        },
+        {
+          uKey: 2,
+          icon: 'group',
+          name: 'Icon 3',
+          url: 'https://www.google.com',
+          color: 'green',
+          caption: 'Apple',
+          text: 'Test'
+        },
+        {
+          uKey: 3,
+          icon: 'settings',
+          name: 'Icon 4',
+          url: 'https://www.google.com',
+          color: 'blue',
+          caption: 'Banana',
+          text: 'Test'
+        }
+      ]
     }
   }
 
@@ -120,6 +160,16 @@ class JieunTestPage extends Component {
 
         <StaffContactHoriz name={this.state.contact.name} position={this.state.contact.position} email={this.state.contact.email} aboutText={this.state.contact.aboutText} imgSrc={this.state.contact.imgSrc} />
 
+        {/*Testing IconWithText*/}
+        <Row>
+        {
+          this.state.icons.map(icon =>
+            <IconWithText key={icon.uKey} icon={icon.icon} iconColor={icon.color} caption={icon.caption} text={icon.text}/>)
+        }
+        </Row>
+
+        {/*Testing ImageGallery*/}
+        
       </div>
     )}
   };
